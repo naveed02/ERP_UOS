@@ -39,6 +39,7 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Voucher_Chang
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Voucher_Help.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.PrintViewer.frmPrintViewer.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.PrintViewer.frmPrintViewer8.resources
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.PrintViewer.frmPrintViewerInvTax.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.PrintViewer.frmPrintViewerSubRpt3P.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.PrintViewer.frmPrintViewerSubRpt4P.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.PrintViewer.frmPrintViewerSubVoc4P.resources
@@ -46,4 +47,3 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Properties.Re
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.csproj.GenerateResource.Cache
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.exe
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.pdb
-D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.csprojResolveAssemblyReference.cache
