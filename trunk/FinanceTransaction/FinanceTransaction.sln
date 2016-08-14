@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceTransaction", "FinanceTransaction\FinanceTransaction.csproj", "{ACA017C0-1704-4388-B000-3F647CD92587}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceTransaction", "FinanceTransaction.csproj", "{ACA017C0-1704-4388-B000-3F647CD92587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
