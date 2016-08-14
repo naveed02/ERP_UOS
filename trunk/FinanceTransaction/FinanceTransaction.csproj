@@ -1,0 +1,785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACA017C0-1704-4388-B000-3F647CD92587}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ERP_UOS</RootNamespace>
+    <AssemblyName>FinanceTransaction</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\clsCheckTableDependency.cs" />
+    <Compile Include="Class\clsDbManager.cs" />
+    <Compile Include="Class\clsEnumerator.cs" />
+    <Compile Include="Class\clsEnumToList.cs" />
+    <Compile Include="Class\clsFillCombo.cs" />
+    <Compile Include="Class\clsFillComboNew.cs" />
+    <Compile Include="Class\clsFillComboSQL.cs" />
+    <Compile Include="Class\clsFillRecursiveTV.cs" />
+    <Compile Include="Class\clsGetAddress.cs" />
+    <Compile Include="Class\clsGetGvar.cs" />
+    <Compile Include="Class\clsGetTable.cs" />
+    <Compile Include="Class\clsGLAcLookUp.cs" />
+    <Compile Include="Class\clsGPref.cs" />
+    <Compile Include="Class\clsGVar.cs" />
+    <Compile Include="Class\clsLookUpGLAc.cs" />
+    <Compile Include="Class\clsRNDbManager.cs" />
+    <Compile Include="Class\clsRoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\clsSetCombo.cs" />
+    <Compile Include="Class\coa.cs" />
+    <Compile Include="Class\CryptorEngine.cs" />
+    <Compile Include="Class\Data.cs" />
+    <Compile Include="Class\dGVRow.cs" />
+    <Compile Include="Class\LookUp.cs" />
+    <Compile Include="Class\Photo.cs" />
+    <Compile Include="Class\StringFun01.cs" />
+    <Compile Include="Forms\Account Description.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Account Description.Designer.cs">
+      <DependentUpon>Account Description.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Account Selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Account Selection.Designer.cs">
+      <DependentUpon>Account Selection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Bank Payment Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Bank Payment Voucher.Designer.cs">
+      <DependentUpon>Bank Payment Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Bank Receipt Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Bank Receipt Voucher.Designer.cs">
+      <DependentUpon>Bank Receipt Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash Payment Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash Payment Voucher.Designer.cs">
+      <DependentUpon>Cash Payment Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash Receipt Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash Receipt Voucher.Designer.cs">
+      <DependentUpon>Cash Receipt Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash Statement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash Statement.Designer.cs">
+      <DependentUpon>Cash Statement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Catagory Detail Description.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Catagory Detail Description.Designer.cs">
+      <DependentUpon>Catagory Detail Description.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cheque Payment Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cheque Payment Voucher.Designer.cs">
+      <DependentUpon>Cheque Payment Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cheque Payment Vouchers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cheque Payment Vouchers.Designer.cs">
+      <DependentUpon>Cheque Payment Vouchers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cheque Receipt Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cheque Receipt Voucher.Designer.cs">
+      <DependentUpon>Cheque Receipt Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cheque Receipt Vouchers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cheque Receipt Vouchers.Designer.cs">
+      <DependentUpon>Cheque Receipt Vouchers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cheque Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cheque Return.Designer.cs">
+      <DependentUpon>Cheque Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cheque to Cheque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cheque to Cheque.Designer.cs">
+      <DependentUpon>Cheque to Cheque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Daily Cheques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Daily Cheques.Designer.cs">
+      <DependentUpon>Daily Cheques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Daily Chq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Daily Chq.Designer.cs">
+      <DependentUpon>Daily Chq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Discount Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Discount Voucher.Designer.cs">
+      <DependentUpon>Discount Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Due Cheques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Due Cheques.Designer.cs">
+      <DependentUpon>Due Cheques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Employee Description.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Employee Description.Designer.cs">
+      <DependentUpon>Employee Description.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Formula Defination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Formula Defination.Designer.cs">
+      <DependentUpon>Formula Defination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLookUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLookUp.designer.cs">
+      <DependentUpon>frmLookUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Group Size Color Selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Group Size Color Selection.Designer.cs">
+      <DependentUpon>Group Size Color Selection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Item Description.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Item Description.Designer.cs">
+      <DependentUpon>Item Description.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Journal Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Journal Voucher.Designer.cs">
+      <DependentUpon>Journal Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Packing Formula Defination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Packing Formula Defination.Designer.cs">
+      <DependentUpon>Packing Formula Defination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Post Dated Cheques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Post Dated Cheques.Designer.cs">
+      <DependentUpon>Post Dated Cheques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Posted Invoice Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Posted Invoice Help.Designer.cs">
+      <DependentUpon>Posted Invoice Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Return Back Receive Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Return Back Receive Voucher.Designer.cs">
+      <DependentUpon>Return Back Receive Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Salary Making.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Salary Making.Designer.cs">
+      <DependentUpon>Salary Making.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Salary Posting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Salary Posting.Designer.cs">
+      <DependentUpon>Salary Posting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Salary Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Salary Report.Designer.cs">
+      <DependentUpon>Salary Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Unposted Vouchers Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Unposted Vouchers Help.Designer.cs">
+      <DependentUpon>Unposted Vouchers Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Voucher Change Entry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Voucher Change Entry.Designer.cs">
+      <DependentUpon>Voucher Change Entry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Voucher Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Voucher Help.Designer.cs">
+      <DependentUpon>Voucher Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsAgingDue.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgingDue.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsLedger.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLedger.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsLedgerNew.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLedgerNew.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDataSets\dsLogo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLogo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintReport\CrAgingDueRep1.cs">
+      <DependentUpon>CrAgingDueRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintReport\CrAgingDueRep21.cs">
+      <DependentUpon>CrAgingDueRep2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintReport\CrAgingDueRepGL1.cs">
+      <DependentUpon>CrAgingDueRepGL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintReport\CrLedger1.cs">
+      <DependentUpon>CrLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintReport\CrLogo1.cs">
+      <DependentUpon>CrLogo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintReport\CrTrial1.cs">
+      <DependentUpon>CrTrial.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintReport\CrTrialOp1.cs">
+      <DependentUpon>CrTrialOp.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewer.Designer.cs">
+      <DependentUpon>frmPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewer8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewer8.Designer.cs">
+      <DependentUpon>frmPrintViewer8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewerInvTax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewerInvTax.Designer.cs">
+      <DependentUpon>frmPrintViewerInvTax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewerSubRpt3P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewerSubRpt3P.Designer.cs">
+      <DependentUpon>frmPrintViewerSubRpt3P.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewerSubRpt4P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewerSubRpt4P.Designer.cs">
+      <DependentUpon>frmPrintViewerSubRpt4P.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewerSubVoc4P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintViewer\frmPrintViewerSubVoc4P.Designer.cs">
+      <DependentUpon>frmPrintViewerSubVoc4P.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC\MaskedTextBox\DataGridViewMaskedTextCell.cs" />
+    <Compile Include="UC\MaskedTextBox\DataGridViewMaskedTextColumn.cs" />
+    <Compile Include="UC\MaskedTextBox\DataGridViewMaskedTextControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UC\MaskedTextBox\ReferencedDescriptionAttribute.cs" />
+    <Compile Include="UC\MSMaskedEditBox\MaskedTextBoxCell.cs" />
+    <Compile Include="UC\MSMaskedEditBox\MaskedTextBoxColumn.cs" />
+    <Compile Include="UC\MSMaskedEditBox\MaskedTextBoxEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UC\TN\TNumEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UC\TN\TNumEditDataGridViewElements.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\Account Description.resx">
+      <DependentUpon>Account Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Account Selection.resx">
+      <DependentUpon>Account Selection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Bank Payment Voucher.resx">
+      <DependentUpon>Bank Payment Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Bank Receipt Voucher.resx">
+      <DependentUpon>Bank Receipt Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash Payment Voucher.resx">
+      <DependentUpon>Cash Payment Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash Receipt Voucher.resx">
+      <DependentUpon>Cash Receipt Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash Statement.resx">
+      <DependentUpon>Cash Statement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Catagory Detail Description.resx">
+      <DependentUpon>Catagory Detail Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cheque Payment Voucher.resx">
+      <DependentUpon>Cheque Payment Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cheque Payment Vouchers.resx">
+      <DependentUpon>Cheque Payment Vouchers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cheque Receipt Voucher.resx">
+      <DependentUpon>Cheque Receipt Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cheque Receipt Vouchers.resx">
+      <DependentUpon>Cheque Receipt Vouchers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cheque Return.resx">
+      <DependentUpon>Cheque Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cheque to Cheque.resx">
+      <DependentUpon>Cheque to Cheque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Daily Cheques.resx">
+      <DependentUpon>Daily Cheques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Daily Chq.resx">
+      <DependentUpon>Daily Chq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Discount Voucher.resx">
+      <DependentUpon>Discount Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Due Cheques.resx">
+      <DependentUpon>Due Cheques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Employee Description.resx">
+      <DependentUpon>Employee Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Formula Defination.resx">
+      <DependentUpon>Formula Defination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLookUp.resx">
+      <DependentUpon>frmLookUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Group Size Color Selection.resx">
+      <DependentUpon>Group Size Color Selection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Item Description.resx">
+      <DependentUpon>Item Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Journal Voucher.resx">
+      <DependentUpon>Journal Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Packing Formula Defination.resx">
+      <DependentUpon>Packing Formula Defination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Post Dated Cheques.resx">
+      <DependentUpon>Post Dated Cheques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Posted Invoice Help.resx">
+      <DependentUpon>Posted Invoice Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Return Back Receive Voucher.resx">
+      <DependentUpon>Return Back Receive Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Salary Making.resx">
+      <DependentUpon>Salary Making.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Salary Posting.resx">
+      <DependentUpon>Salary Posting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Salary Report.resx">
+      <DependentUpon>Salary Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Unposted Vouchers Help.resx">
+      <DependentUpon>Unposted Vouchers Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Voucher Change Entry.resx">
+      <DependentUpon>Voucher Change Entry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Voucher Help.resx">
+      <DependentUpon>Voucher Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrAgingDueRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrAgingDueRep1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrAgingDueRep2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrAgingDueRep21.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrAgingDueRepGL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrAgingDueRepGL1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrLedger1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrLogo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrLogo1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrTrial.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrTrial1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport\CrTrialOp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrTrialOp1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintViewer\frmPrintViewer.resx">
+      <DependentUpon>frmPrintViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintViewer\frmPrintViewer8.resx">
+      <DependentUpon>frmPrintViewer8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintViewer\frmPrintViewerInvTax.resx">
+      <DependentUpon>frmPrintViewerInvTax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintViewer\frmPrintViewerSubRpt3P.resx">
+      <DependentUpon>frmPrintViewerSubRpt3P.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintViewer\frmPrintViewerSubRpt4P.resx">
+      <DependentUpon>frmPrintViewerSubRpt4P.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintViewer\frmPrintViewerSubVoc4P.resx">
+      <DependentUpon>frmPrintViewerSubVoc4P.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Icons\Images\New folder\FormExit.psd" />
+    <None Include="PrintDataSets\dsAgingDue.xsc">
+      <DependentUpon>dsAgingDue.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsAgingDue.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgingDue.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PrintDataSets\dsAgingDue.xss">
+      <DependentUpon>dsAgingDue.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsLedger.xsc">
+      <DependentUpon>dsLedger.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsLedger.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLedger.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PrintDataSets\dsLedger.xss">
+      <DependentUpon>dsLedger.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsLedgerNew.xsc">
+      <DependentUpon>dsLedgerNew.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsLedgerNew.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLedgerNew.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDataSets\dsLedgerNew.xss">
+      <DependentUpon>dsLedgerNew.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsLogo.xsc">
+      <DependentUpon>dsLogo.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDataSets\dsLogo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLogo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PrintDataSets\dsLogo.xss">
+      <DependentUpon>dsLogo.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\aboutbk.jpg" />
+    <Content Include="Icons\arrow-up.png" />
+    <Content Include="Icons\bbeditor-button-bg.gif" />
+    <Content Include="Icons\bgTextBox.gif" />
+    <Content Include="Icons\btn_download_bg.gif" />
+    <Content Include="Icons\cart_line_x.gif" />
+    <Content Include="Icons\cart_line_y.gif" />
+    <Content Include="Icons\CheckSyntax.png" />
+    <Content Include="Icons\closelabel.gif" />
+    <Content Include="Icons\Close_Org.png" />
+    <Content Include="Icons\d.jpg" />
+    <Content Include="Icons\EmptyStar.png" />
+    <Content Include="Icons\FilledStar.png" />
+    <Content Include="Icons\First.png" />
+    <Content Include="Icons\grey_button_bg.gif" />
+    <Content Include="Icons\grid_header_back.png" />
+    <Content Include="Icons\ico-account.gif" />
+    <Content Include="Icons\ico-admin.gif" />
+    <Content Include="Icons\ico-arrow-r.gif" />
+    <Content Include="Icons\ico-cart.gif" />
+    <Content Include="Icons\ico-delete.gif" />
+    <Content Include="Icons\ico-edit.gif" />
+    <Content Include="Icons\ico-forum-post-add.gif" />
+    <Content Include="Icons\ico-forum-post-high.gif" />
+    <Content Include="Icons\ico-forum-post.gif" />
+    <Content Include="Icons\ico-forum-watch.gif" />
+    <Content Include="Icons\ico-forum.gif" />
+    <Content Include="Icons\ico-inbox.gif" />
+    <Content Include="Icons\ico-login.gif" />
+    <Content Include="Icons\ico-logout.gif" />
+    <Content Include="Icons\ico-moveTopic.gif" />
+    <Content Include="Icons\ico-pm.png" />
+    <Content Include="Icons\ico-register.gif" />
+    <Content Include="Icons\ico-wishlist.gif" />
+    <Content Include="Icons\image3.png" />
+    <Content Include="Icons\image4.png" />
+    <Content Include="Icons\image5.png" />
+    <Content Include="Icons\Images\btnModify.png" />
+    <Content Include="Icons\Images\delete_16x.ico" />
+    <Content Include="Icons\Images\Filter2HS.png" />
+    <Content Include="Icons\Images\FormExit.png" />
+    <Content Include="Icons\Images\image10.png" />
+    <Content Include="Icons\Images\image11.png" />
+    <Content Include="Icons\Images\image21.png" />
+    <Content Include="Icons\Images\image9.png" />
+    <Content Include="Icons\Images\InitialImage.jpg" />
+    <Content Include="Icons\Images\New folder\BaBa_accept_tick_select.png" />
+    <Content Include="Icons\Images\New folder\BaBa_add_small.png" />
+    <Content Include="Icons\Images\New folder\BaBa_Attach.png" />
+    <Content Include="Icons\Images\New folder\BaBa_Attach_bg.png" />
+    <Content Include="Icons\Images\New folder\BaBa_Attach_Blue.png" />
+    <Content Include="Icons\Images\New folder\BaBa_Calendar.bmp" />
+    <Content Include="Icons\Images\New folder\BaBa_clear.png" />
+    <Content Include="Icons\Images\New folder\BaBa_delete_16x.ico" />
+    <Content Include="Icons\Images\New folder\BaBa_Display.png" />
+    <Content Include="Icons\Images\New folder\BaBa_load16.png" />
+    <Content Include="Icons\Images\New folder\BaBa_load48.png" />
+    <Content Include="Icons\Images\New folder\Filter2HS.png" />
+    <Content Include="Icons\Images\New folder\FormExit.png" />
+    <Content Include="Icons\Images\New folder\NewCardHS.png" />
+    <Content Include="Icons\Images\New folder\preview_16x16.png" />
+    <Content Include="Icons\Images\New folder\Refresh.png" />
+    <Content Include="Icons\Images\New folder\saveHS.png" />
+    <Content Include="Icons\Images\New folder\search_glyph.png" />
+    <Content Include="Icons\Images\New folder\undo_reset.png" />
+    <Content Include="Icons\Images\New folder\x_preview_16x16.gif" />
+    <Content Include="Icons\Images\NewCardHS.png" />
+    <Content Include="Icons\Images\propertysheets.ico" />
+    <Content Include="Icons\Images\Refresh.png" />
+    <Content Include="Icons\Images\saveHS.png" />
+    <Content Include="Icons\Images\search_glyph.png" />
+    <Content Include="Icons\Images\undo_reset.png" />
+    <Content Include="Icons\Images\UserGroupNew.gif" />
+    <Content Include="Icons\Images\UserGroupProperties.gif" />
+    <Content Include="Icons\Images\UserMemberOf.gif" />
+    <Content Include="Icons\Images\UserNew.gif" />
+    <Content Include="Icons\Images\UserProperties.gif" />
+    <Content Include="Icons\insert.gif" />
+    <Content Include="Icons\Last.png" />
+    <Content Include="Icons\loading.gif" />
+    <Content Include="Icons\logo.gif" />
+    <Content Include="Icons\logo.png" />
+    <Content Include="Icons\logoCropped.jpg" />
+    <Content Include="Icons\Next.png" />
+    <Content Include="Icons\nextlabel.gif" />
+    <Content Include="Icons\NizamiBros.jpg" />
+    <Content Include="Icons\NizamiBrosIconJpg.JPG" />
+    <Content Include="Icons\NizamiBrosIconJpgNew.ico" />
+    <Content Include="Icons\NizamiBrothersIcon.ico" />
+    <Content Include="Icons\NizamiBrothersIcon.JPG" />
+    <Content Include="Icons\node_closed.png" />
+    <Content Include="Icons\node_open.png" />
+    <Content Include="Icons\open_icon.png" />
+    <Content Include="Icons\orange_button_bg.gif" />
+    <Content Include="Icons\Pin.png" />
+    <Content Include="Icons\pint16.png" />
+    <Content Include="Icons\Preview.png" />
+    <Content Include="Icons\Previous.png" />
+    <Content Include="Icons\prevlabel.gif" />
+    <Content Include="Icons\printer.png" />
+    <Content Include="Icons\PrinterIco.ico" />
+    <Content Include="Icons\PrinterLarge.jpg" />
+    <Content Include="Icons\PrinterMiddle.jpg" />
+    <Content Include="Icons\Printersmalest.jpg" />
+    <Content Include="Icons\PrinterSmall-ico.ico" />
+    <Content Include="Icons\PrinterSmall.jpg" />
+    <Content Include="Icons\progress-step-active.gif" />
+    <Content Include="Icons\progress-step-inactive.gif" />
+    <Content Include="Icons\Ranyal_ICO.ico" />
+    <Content Include="Icons\refresh.png" />
+    <Content Include="Icons\R_Image\r_diamond.jpg" />
+    <Content Include="Icons\R_Image\r_diamond2.jpg" />
+    <Content Include="Icons\R_Image\r_grass.jpg" />
+    <Content Include="Icons\R_Image\r_lightgrey.png" />
+    <Content Include="Icons\R_Image\r_silver.jpg" />
+    <Content Include="Icons\SavedStar.png" />
+    <Content Include="Icons\Search01.jpg" />
+    <Content Include="Icons\star_x_active.gif" />
+    <Content Include="Icons\star_x_inactive.gif" />
+    <Content Include="Icons\tab-line.png" />
+    <Content Include="Icons\tab.png" />
+    <Content Include="Icons\tiny_pin.png" />
+    <Content Include="Icons\tiny_pinned.png" />
+    <Content Include="Icons\usergroup.png" />
+    <Content Include="Icons\userone.png" />
+    <Content Include="Icons\Weighbridge.jpg" />
+    <Content Include="Icons\Weighbridge2.jpg" />
+    <Content Include="Icons\Weighbridge3.jpg" />
+    <Content Include="Icons\Weighbridge4.jpg" />
+    <Content Include="Icons\Weighbridge5.jpg" />
+    <Content Include="Icons\Weighbridge6.jpg" />
+    <Content Include="Icons\Weighbridge8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Temp\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
