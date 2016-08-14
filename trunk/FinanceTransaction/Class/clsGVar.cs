@@ -20,23 +20,23 @@ namespace ERP_UOS
     public static class clsGVar
     {
         public static int BranchID = 0;
-        public static string DBConnectString = string.Empty;
+        //public static string DBConnectString = string.Empty;
 
-        public const string Pwd1 = "smc786";
+        //public const string Pwd1 = "smc786";
         //public const string UserName1 = "sa";
-        //public const string Pwd1 = "abcbook123$%^";
+        public const string Pwd1 = "abcbook123$%^";
         public const string UserName1 = "sa";
         //public const string Pwd1 = "abcbook";
         //public const string UserName1 = "appsuser";
 
-        public const string DbName1 = "ERP_UOS";
+        public const string DbName1 = "GUI_Task";
         //public const string DbName1 = "NORTHWIND";
         //public const string gServerId1 = "(local)";
         //public const string gServerId1 = @"TEAMWIN7S\TEAMWIN7S";    // did not work from local and remote computer
         //public const string ServerName1 = "KomfitLenovo";    //  @"TEAMWIN7S"
         //public const string ServerName1 = "61.5.139.139";    //  @"TEAMWIN7S"
-        public const string ServerName1 = "192.168.1.188";    //  @"TEAMWIN7S"
-        //public const string ServerName1 = @"(Local)";    //  @"TEAMWIN7S"      
+        //public const string ServerName1 = "192.168.1.188";    //  @"TEAMWIN7S"
+        public const string ServerName1 = @"(Local)";    //  @"TEAMWIN7S"      
         //public const string ServerName1 = @"shoaibsiddiqui\sql2008";    //       
         //public const string ServerName1 = @"Shoaib-Lenovo\SQL2014";  
         //public const string ServerName1 = @"shoaibsiddiqui\sql2008";    //       
@@ -51,6 +51,8 @@ namespace ERP_UOS
         // **** Commented By Usama Naveed *******************
         public const string ConString1 = "Data Source= " + ServerName1 + ";Initial Catalog=" + DbName1 + ";User ID=" + UserName1 + "; Password=" + Pwd1;
         //public const string ConString1 = "Data Source= " + CryptorEngine.DataSrc + ";Initial Catalog=" + CryptorEngine.InitCat + ";User ID=" + CryptorEngine.UserID + "; Password=" + CryptorEngine.Pwd;
+
+        public static string DBConnectString = ConString1.ToString();
 
         public const string CoTitle1 = "Ranyal Industries (Pvt) Ltd.";
 

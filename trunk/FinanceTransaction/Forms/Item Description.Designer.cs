@@ -56,7 +56,7 @@
             this.txt1 = new System.Windows.Forms.TextBox();
             this.msk1 = new System.Windows.Forms.MaskedTextBox();
             this.btn1 = new System.Windows.Forms.Button();
-            this.cbo1 = new System.Windows.Forms.ComboBox();
+            this.cboGroup = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -123,7 +123,7 @@
             this.groupBox1.Controls.Add(this.txt1);
             this.groupBox1.Controls.Add(this.msk1);
             this.groupBox1.Controls.Add(this.btn1);
-            this.groupBox1.Controls.Add(this.cbo1);
+            this.groupBox1.Controls.Add(this.cboGroup);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(6, 7);
@@ -405,31 +405,15 @@
             this.btn1.Text = "[F1]= Help";
             this.btn1.UseVisualStyleBackColor = true;
             // 
-            // cbo1
+            // cboGroup
             // 
-            this.cbo1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo1.Font = new System.Drawing.Font("Arial Narrow", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbo1.FormattingEnabled = true;
-            this.cbo1.Items.AddRange(new object[] {
-            "-",
-            "BUCKLE",
-            "CHEMICAL PU",
-            "EVA SHOES",
-            "GENRAL",
-            "LEATHER AND REXINE",
-            "PCU SHOES",
-            "PPC PATAWA CUTTING",
-            "PPU PRINT PATAWA",
-            "PUD STOR DEPARTMENT",
-            "PUS SHOES",
-            "REXINE MATERIAL",
-            "SCRAPE",
-            "UPC UPPER CUTTING",
-            "UPC UPPER SWING"});
-            this.cbo1.Location = new System.Drawing.Point(121, 26);
-            this.cbo1.Name = "cbo1";
-            this.cbo1.Size = new System.Drawing.Size(272, 21);
-            this.cbo1.TabIndex = 29;
+            this.cboGroup.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboGroup.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboGroup.FormattingEnabled = true;
+            this.cboGroup.Location = new System.Drawing.Point(121, 26);
+            this.cboGroup.Name = "cboGroup";
+            this.cboGroup.Size = new System.Drawing.Size(272, 23);
+            this.cboGroup.TabIndex = 29;
             // 
             // label2
             // 
@@ -587,7 +571,7 @@
         private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.MaskedTextBox msk1;
         private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.ComboBox cbo1;
+        private System.Windows.Forms.ComboBox cboGroup;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn5;

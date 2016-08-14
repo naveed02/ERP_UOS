@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace FinanceTransaction
+namespace ERP_UOS
 {
     public partial class frmMain : Form
     {

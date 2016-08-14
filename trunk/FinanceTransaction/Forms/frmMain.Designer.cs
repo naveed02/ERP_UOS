@@ -1,4 +1,4 @@
-﻿namespace FinanceTransaction
+﻿namespace ERP_UOS
 {
     partial class frmMain
     {
