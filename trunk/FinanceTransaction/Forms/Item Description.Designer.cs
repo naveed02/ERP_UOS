@@ -76,6 +76,7 @@
             // 
             this.tbc1.Controls.Add(this.tabPage1);
             this.tbc1.Controls.Add(this.tabPage2);
+            this.tbc1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbc1.Location = new System.Drawing.Point(12, 23);
             this.tbc1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbc1.Name = "tbc1";
@@ -87,11 +88,11 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage1.Size = new System.Drawing.Size(603, 395);
+            this.tabPage1.Size = new System.Drawing.Size(603, 396);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Item Information";
             this.tabPage1.UseVisualStyleBackColor = true;
