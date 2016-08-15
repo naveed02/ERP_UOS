@@ -180,7 +180,7 @@ namespace ERP_UOS
 
         private void categoryDescriptionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCatagory frm = new frmCatagory();
+            frmCatDtl frm = new frmCatDtl();
             frm.MdiParent = this;
             frm.Show();
         }

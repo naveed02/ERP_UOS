@@ -35,6 +35,13 @@ namespace ERP_UOS
 
             clsFillCombo.FillCombo(cboGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", lSQL, true);
             fcboDefaultValue = Convert.ToInt16(cboGroup.SelectedValue);
+
+            lSQL = "select UOMID, UnitName "
+                 + " from IMS_UOM "
+                 + " ORDER BY UnitName ";
+
+            clsFillCombo.FillCombo(cboUOM, clsGVar.ConString1, "IMS_UOM" + "," + "UOMID" + "," + "False", lSQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboUOM.SelectedValue);
         }
 
         private void btn11_Click(object sender, EventArgs e)
