@@ -20,7 +20,7 @@ namespace ERP_UOS
 
         private void cToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cash_Receipt_Voucher frm = new Cash_Receipt_Voucher();
+           Cash_Receipt_Voucher frm = new Cash_Receipt_Voucher();
            frm.MdiParent = this;
            frm.Show();
         }

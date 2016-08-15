@@ -19,6 +19,19 @@ namespace ERP_UOS
         private void frmItem_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+            AtFormLoad();
+        }
+
+        private void AtFormLoad()
+        {
+            string lSQL = string.Empty;
+
+            lSQL = "SELECT cgdCode, cgdDesc "
+                 + " FROM CatDtl "
+                 + " WHERE cgCode = 6 "
+                 + " ORDER BY cgdDesc ";
+
+            clsFillCombo.FillCombo(cboGroup, clsGVar.ConString1, "CatDtl", lSQL, false);
         }
 
         private void btn11_Click(object sender, EventArgs e)

@@ -198,8 +198,8 @@
             this.toolStripSeparator9,
             this.payRolMenuToolStripMenuItem});
             this.fiananceTransactionToolStripMenuItem.Name = "fiananceTransactionToolStripMenuItem";
-            this.fiananceTransactionToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
-            this.fiananceTransactionToolStripMenuItem.Text = "Fianance Transaction";
+            this.fiananceTransactionToolStripMenuItem.Size = new System.Drawing.Size(124, 20);
+            this.fiananceTransactionToolStripMenuItem.Text = "Finance Transaction";
             this.fiananceTransactionToolStripMenuItem.Click += new System.EventHandler(this.fiananceTransactionToolStripMenuItem_Click);
             // 
             // cToolStripMenuItem

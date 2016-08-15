@@ -371,12 +371,6 @@
     <Compile Include="PrintViewer\frmPrintViewer8.Designer.cs">
       <DependentUpon>frmPrintViewer8.cs</DependentUpon>
     </Compile>
-    <Compile Include="PrintViewer\frmPrintViewerInvTax.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PrintViewer\frmPrintViewerInvTax.Designer.cs">
-      <DependentUpon>frmPrintViewerInvTax.cs</DependentUpon>
-    </Compile>
     <Compile Include="PrintViewer\frmPrintViewerSubRpt3P.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -555,9 +549,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PrintViewer\frmPrintViewer8.resx">
       <DependentUpon>frmPrintViewer8.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PrintViewer\frmPrintViewerInvTax.resx">
-      <DependentUpon>frmPrintViewerInvTax.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintViewer\frmPrintViewerSubRpt3P.resx">
       <DependentUpon>frmPrintViewerSubRpt3P.cs</DependentUpon>
