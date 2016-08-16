@@ -1,4 +1,4 @@
-﻿namespace Menu_Strip
+﻿namespace ERP_UOS
 {
     partial class frmSalesReturn
     {
@@ -159,7 +159,7 @@
             this.Column12,
             this.Column10,
             this.Column9});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 385);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 343);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1693, 169);
             this.dataGridView1.TabIndex = 236;
@@ -333,6 +333,7 @@
             this.button9.TabIndex = 244;
             this.button9.Text = "< Esc = Exit >";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button7
             // 
@@ -929,6 +930,7 @@
             this.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmSalesReturn";
             this.Text = "Sales Return";
+            this.Load += new System.EventHandler(this.frmSalesReturn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

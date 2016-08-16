@@ -1,4 +1,4 @@
-﻿namespace Menu_Strip
+﻿namespace ERP_UOS
 {
     partial class frmSaleOrderEntry
     {
@@ -956,6 +956,7 @@
             this.button11.TabIndex = 226;
             this.button11.Text = "Esc=Exit";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // checkBox2
             // 
@@ -1147,6 +1148,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "frmSaleOrderEntry";
             this.Text = "Sale Order Entry";
+            this.Load += new System.EventHandler(this.frmSaleOrderEntry_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -1,4 +1,4 @@
-﻿namespace Menu_Strip
+﻿namespace ERP_UOS
 {
     partial class frmInvoiceEntry
     {
@@ -462,6 +462,7 @@
             this.button10.TabIndex = 142;
             this.button10.Text = "<Esc=Exit>";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -1054,6 +1055,7 @@
             this.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmInvoiceEntry";
             this.Text = "InvoiceEntry";
+            this.Load += new System.EventHandler(this.frmInvoiceEntry_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

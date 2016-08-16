@@ -7,13 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Menu_Strip
+namespace ERP_UOS
 {
     public partial class frmSaleOrderEntry : Form
     {
         public frmSaleOrderEntry()
         {
             InitializeComponent();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmSaleOrderEntry_Load(object sender, EventArgs e)
+        {
+            this.MaximizeBox = false;
         }
     }
 }

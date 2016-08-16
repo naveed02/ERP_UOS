@@ -1,4 +1,4 @@
-﻿namespace Menu_Strip
+﻿namespace ERP_UOS
 {
     partial class frmSaleOrderEntryQuotation
     {
@@ -436,6 +436,7 @@
             this.button11.TabIndex = 141;
             this.button11.Text = "Esc=Exit";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Column6
             // 
@@ -1069,6 +1070,7 @@
             this.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmSaleOrderEntryQuotation";
             this.Text = "Sale Order Entry Quotation";
+            this.Load += new System.EventHandler(this.frmSaleOrderEntryQuotation_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
