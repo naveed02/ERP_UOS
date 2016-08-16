@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace FinanceTransaction
 {
-    public partial class frmCatagory : Form
+    public partial class frmCategory : Form
     {
-        public frmCatagory()
+        public frmCategory()
         {
             InitializeComponent();
         }
