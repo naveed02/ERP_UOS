@@ -8,7 +8,6 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmBank_Recei
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Cash_Payment_Voucher.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Cash_Receipt_Voucher.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmCash.resources
-D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmCatagory.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Cheque_Payment_Voucher.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Cheque_Payment_Vouchers.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Cheque_Receipt_Voucher.resources
@@ -48,4 +47,4 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.cs
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.exe
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.pdb
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.csprojResolveAssemblyReference.cache
-D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\Enterprise_Resource_Planning.frmEnterpriseResourcePlanning.resources
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.frmCategory.resources
