@@ -1,4 +1,4 @@
-﻿namespace ERP_UOS
+﻿namespace FinanceTransaction
 {
     partial class frmCatagory
     {
