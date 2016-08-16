@@ -29,7 +29,7 @@ namespace ERP_UOS
         //public const string Pwd1 = "abcbook";
         //public const string UserName1 = "appsuser";
 
-        public const string DbName1 = "ERP_UOS";
+        public const string DbName1 = "GUI_Task";
         //public const string DbName1 = "NORTHWIND";
         //public const string gServerId1 = "(local)";
         //public const string gServerId1 = @"TEAMWIN7S\TEAMWIN7S";    // did not work from local and remote computer
