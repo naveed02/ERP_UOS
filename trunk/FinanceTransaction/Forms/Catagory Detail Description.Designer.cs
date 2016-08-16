@@ -1,6 +1,6 @@
 ﻿namespace FinanceTransaction
 {
-    partial class frmCatagory
+    partial class frmCategory
     {
         /// <summary>
         /// Required designer variable.
@@ -32,29 +32,29 @@
             this.cbo1 = new System.Windows.Forms.ComboBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txt1 = new System.Windows.Forms.TextBox();
-            this.txt2 = new System.Windows.Forms.TextBox();
-            this.txt3 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btn1 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txt3 = new System.Windows.Forms.TextBox();
+            this.txt2 = new System.Windows.Forms.TextBox();
+            this.txt1 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btn4 = new System.Windows.Forms.Button();
             this.grd1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn4 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grd1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,17 +124,75 @@
             this.tabPage1.Text = "         Description               ";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // groupBox3
             // 
-            this.tabPage2.Controls.Add(this.btn4);
-            this.tabPage2.Controls.Add(this.grd1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(547, 343);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "               Defined                 ";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.groupBox3.Controls.Add(this.btn3);
+            this.groupBox3.Controls.Add(this.btn2);
+            this.groupBox3.Controls.Add(this.btn1);
+            this.groupBox3.Location = new System.Drawing.Point(45, 199);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(452, 89);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            // 
+            // btn3
+            // 
+            this.btn3.Location = new System.Drawing.Point(371, 20);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(75, 54);
+            this.btn3.TabIndex = 2;
+            this.btn3.Text = "  [F1]= Help";
+            this.btn3.UseVisualStyleBackColor = true;
+            // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(88, 20);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(75, 54);
+            this.btn2.TabIndex = 1;
+            this.btn2.Text = "  [Esc]";
+            this.btn2.UseVisualStyleBackColor = true;
+            // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(7, 20);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(75, 54);
+            this.btn1.TabIndex = 0;
+            this.btn1.Text = "  Save";
+            this.btn1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txt3);
+            this.groupBox2.Controls.Add(this.txt2);
+            this.groupBox2.Controls.Add(this.txt1);
+            this.groupBox2.Location = new System.Drawing.Point(133, 6);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(394, 104);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            // 
+            // txt3
+            // 
+            this.txt3.Location = new System.Drawing.Point(6, 71);
+            this.txt3.Name = "txt3";
+            this.txt3.Size = new System.Drawing.Size(382, 21);
+            this.txt3.TabIndex = 2;
+            // 
+            // txt2
+            // 
+            this.txt2.Location = new System.Drawing.Point(6, 41);
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(382, 21);
+            this.txt2.TabIndex = 1;
+            // 
+            // txt1
+            // 
+            this.txt1.Location = new System.Drawing.Point(6, 14);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(100, 21);
+            this.txt1.TabIndex = 0;
             // 
             // groupBox1
             // 
@@ -146,30 +204,6 @@
             this.groupBox1.Size = new System.Drawing.Size(121, 104);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // lbl2
-            // 
-            this.lbl2.AutoSize = true;
-            this.lbl2.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl2.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(6, 17);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(106, 18);
-            this.lbl2.TabIndex = 1;
-            this.lbl2.Text = "            Code            ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gainsboro;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 18);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "            Name           ";
             // 
             // label2
             // 
@@ -183,75 +217,50 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "       Urdu Name        ";
             // 
-            // groupBox2
+            // label1
             // 
-            this.groupBox2.Controls.Add(this.txt3);
-            this.groupBox2.Controls.Add(this.txt2);
-            this.groupBox2.Controls.Add(this.txt1);
-            this.groupBox2.Location = new System.Drawing.Point(133, 6);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(394, 104);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Gainsboro;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 44);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "            Name           ";
             // 
-            // txt1
+            // lbl2
             // 
-            this.txt1.Location = new System.Drawing.Point(6, 14);
-            this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(100, 21);
-            this.txt1.TabIndex = 0;
+            this.lbl2.AutoSize = true;
+            this.lbl2.BackColor = System.Drawing.Color.Gainsboro;
+            this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl2.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.Location = new System.Drawing.Point(6, 17);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(106, 18);
+            this.lbl2.TabIndex = 1;
+            this.lbl2.Text = "            Code            ";
             // 
-            // txt2
+            // tabPage2
             // 
-            this.txt2.Location = new System.Drawing.Point(6, 41);
-            this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(382, 21);
-            this.txt2.TabIndex = 1;
+            this.tabPage2.Controls.Add(this.btn4);
+            this.tabPage2.Controls.Add(this.grd1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(547, 343);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "               Defined                 ";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // txt3
+            // btn4
             // 
-            this.txt3.Location = new System.Drawing.Point(6, 71);
-            this.txt3.Name = "txt3";
-            this.txt3.Size = new System.Drawing.Size(382, 21);
-            this.txt3.TabIndex = 2;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.btn3);
-            this.groupBox3.Controls.Add(this.btn2);
-            this.groupBox3.Controls.Add(this.btn1);
-            this.groupBox3.Location = new System.Drawing.Point(45, 199);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(452, 89);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            // 
-            // btn1
-            // 
-            this.btn1.Location = new System.Drawing.Point(7, 20);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(75, 54);
-            this.btn1.TabIndex = 0;
-            this.btn1.Text = "  Save";
-            this.btn1.UseVisualStyleBackColor = true;
-            // 
-            // btn2
-            // 
-            this.btn2.Location = new System.Drawing.Point(88, 20);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(75, 54);
-            this.btn2.TabIndex = 1;
-            this.btn2.Text = "  [Esc]";
-            this.btn2.UseVisualStyleBackColor = true;
-            // 
-            // btn3
-            // 
-            this.btn3.Location = new System.Drawing.Point(371, 20);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(75, 54);
-            this.btn3.TabIndex = 2;
-            this.btn3.Text = "  [F1]= Help";
-            this.btn3.UseVisualStyleBackColor = true;
+            this.btn4.Location = new System.Drawing.Point(442, 150);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(75, 54);
+            this.btn4.TabIndex = 2;
+            this.btn4.Text = "  Esc";
+            this.btn4.UseVisualStyleBackColor = true;
             // 
             // grd1
             // 
@@ -274,16 +283,7 @@
             this.Column2.HeaderText = " Name Description";
             this.Column2.Name = "Column2";
             // 
-            // btn4
-            // 
-            this.btn4.Location = new System.Drawing.Point(442, 150);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(75, 54);
-            this.btn4.TabIndex = 2;
-            this.btn4.Text = "  Esc";
-            this.btn4.UseVisualStyleBackColor = true;
-            // 
-            // frmCatagory
+            // frmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -293,17 +293,17 @@
             this.Controls.Add(this.lbl1);
             this.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "frmCatagory";
+            this.Name = "frmCategory";
             this.Text = "Catagory_Detail_Description";
             this.Load += new System.EventHandler(this.frmCatagory_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grd1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
