@@ -48,9 +48,9 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txt2 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.cbo2 = new System.Windows.Forms.ComboBox();
+            this.cboColor = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.cbo1 = new System.Windows.Forms.ComboBox();
+            this.cboSize = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.lbl2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -237,10 +237,10 @@
             this.label8.TabIndex = 45;
             this.label8.Text = "         Note         ";
             // 
-            // cbo2
+            // cboColor
             // 
-            this.cbo2.FormattingEnabled = true;
-            this.cbo2.Items.AddRange(new object[] {
+            this.cboColor.FormattingEnabled = true;
+            this.cboColor.Items.AddRange(new object[] {
             "<<All>>",
             "-",
             "BLACK",
@@ -271,10 +271,10 @@
             "WHITE",
             "YELLOW",
             ""});
-            this.cbo2.Location = new System.Drawing.Point(401, 65);
-            this.cbo2.Name = "cbo2";
-            this.cbo2.Size = new System.Drawing.Size(265, 24);
-            this.cbo2.TabIndex = 44;
+            this.cboColor.Location = new System.Drawing.Point(401, 65);
+            this.cboColor.Name = "cboColor";
+            this.cboColor.Size = new System.Drawing.Size(265, 24);
+            this.cboColor.TabIndex = 44;
             // 
             // label7
             // 
@@ -287,10 +287,10 @@
             this.label7.TabIndex = 43;
             this.label7.Text = " Color ";
             // 
-            // cbo1
+            // cboSize
             // 
-            this.cbo1.FormattingEnabled = true;
-            this.cbo1.Items.AddRange(new object[] {
+            this.cboSize.FormattingEnabled = true;
+            this.cboSize.Items.AddRange(new object[] {
             "<<All>>",
             "-",
             "1/3",
@@ -352,10 +352,10 @@
             "9/10",
             "9/11",
             "9/12"});
-            this.cbo1.Location = new System.Drawing.Point(100, 65);
-            this.cbo1.Name = "cbo1";
-            this.cbo1.Size = new System.Drawing.Size(251, 24);
-            this.cbo1.TabIndex = 42;
+            this.cboSize.Location = new System.Drawing.Point(100, 65);
+            this.cboSize.Name = "cboSize";
+            this.cboSize.Size = new System.Drawing.Size(251, 24);
+            this.cboSize.TabIndex = 42;
             // 
             // label6
             // 
@@ -486,9 +486,9 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txt2);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.cbo2);
+            this.Controls.Add(this.cboColor);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.cbo1);
+            this.Controls.Add(this.cboSize);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.label5);
@@ -533,9 +533,9 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txt2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox cbo2;
+        private System.Windows.Forms.ComboBox cboColor;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox cbo1;
+        private System.Windows.Forms.ComboBox cboSize;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.Label label5;
