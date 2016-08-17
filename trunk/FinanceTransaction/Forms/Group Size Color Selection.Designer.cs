@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.cbo1 = new System.Windows.Forms.ComboBox();
+            this.cboGroup = new System.Windows.Forms.ComboBox();
             this.grd1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grid2 = new System.Windows.Forms.DataGridView();
@@ -53,10 +53,10 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "      Item Group     ";
             // 
-            // cbo1
+            // cboGroup
             // 
-            this.cbo1.FormattingEnabled = true;
-            this.cbo1.Items.AddRange(new object[] {
+            this.cboGroup.FormattingEnabled = true;
+            this.cboGroup.Items.AddRange(new object[] {
             "-",
             "BUCKLE",
             "CHEMICAL PU",
@@ -72,10 +72,10 @@
             "SCRAPE",
             "PUC UPPER CUTTING",
             "UPS UPPER SEWING"});
-            this.cbo1.Location = new System.Drawing.Point(121, 6);
-            this.cbo1.Name = "cbo1";
-            this.cbo1.Size = new System.Drawing.Size(312, 23);
-            this.cbo1.TabIndex = 1;
+            this.cboGroup.Location = new System.Drawing.Point(121, 6);
+            this.cboGroup.Name = "cboGroup";
+            this.cboGroup.Size = new System.Drawing.Size(312, 23);
+            this.cboGroup.TabIndex = 1;
             // 
             // grd1
             // 
@@ -154,7 +154,7 @@
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.grid2);
             this.Controls.Add(this.grd1);
-            this.Controls.Add(this.cbo1);
+            this.Controls.Add(this.cboGroup);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmGroup";
@@ -170,7 +170,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbo1;
+        private System.Windows.Forms.ComboBox cboGroup;
         private System.Windows.Forms.DataGridView grd1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridView grid2;
