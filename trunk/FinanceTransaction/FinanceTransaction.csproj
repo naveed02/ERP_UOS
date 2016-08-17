@@ -123,12 +123,6 @@
     <Compile Include="Forms\Cash Statement.Designer.cs">
       <DependentUpon>Cash Statement.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Catagory Detail Description.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Catagory Detail Description.Designer.cs">
-      <DependentUpon>Catagory Detail Description.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Cheque Payment Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -201,7 +195,12 @@
     <Compile Include="Forms\Formula Defination.Designer.cs">
       <DependentUpon>Formula Defination.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmCatDtl_2.cs" />
+    <Compile Include="Forms\frmCatDetDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCatDetDesc.Designer.cs">
+      <DependentUpon>frmCatDetDesc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmLookUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -436,9 +435,6 @@
     <EmbeddedResource Include="Forms\Cash Statement.resx">
       <DependentUpon>Cash Statement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Catagory Detail Description.resx">
-      <DependentUpon>Catagory Detail Description.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Cheque Payment Voucher.resx">
       <DependentUpon>Cheque Payment Voucher.cs</DependentUpon>
     </EmbeddedResource>
@@ -474,6 +470,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Formula Defination.resx">
       <DependentUpon>Formula Defination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCatDetDesc.resx">
+      <DependentUpon>frmCatDetDesc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmLookUp.resx">
       <DependentUpon>frmLookUp.cs</DependentUpon>
