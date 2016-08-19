@@ -50,5 +50,10 @@ namespace ERP_UOS
             frmSearch frm = new frmSearch();
             frm.ShowDialog();
         }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

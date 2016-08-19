@@ -142,6 +142,7 @@
             this.bu.TabIndex = 7;
             this.bu.Text = "< Esc=Exit >";
             this.bu.UseVisualStyleBackColor = true;
+            this.bu.Click += new System.EventHandler(this.bu_Click);
             // 
             // frmGroup
             // 

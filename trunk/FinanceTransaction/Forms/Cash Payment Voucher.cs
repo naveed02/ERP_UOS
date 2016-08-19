@@ -18,7 +18,7 @@ namespace ERP_UOS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Voucher_Help vh = new Voucher_Help();
+            FrmVoucherHelp vh = new FrmVoucherHelp();
             vh.Show();
         }
 
@@ -29,8 +29,13 @@ namespace ERP_UOS
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Voucher_Help frm = new Voucher_Help();
+            FrmVoucherHelp frm = new FrmVoucherHelp();
             frm.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

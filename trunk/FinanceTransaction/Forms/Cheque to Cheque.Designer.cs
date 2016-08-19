@@ -256,7 +256,7 @@
             this.chk1.Location = new System.Drawing.Point(553, 59);
             this.chk1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.chk1.Name = "chk1";
-            this.chk1.Size = new System.Drawing.Size(57, 25);
+            this.chk1.Size = new System.Drawing.Size(57, 20);
             this.chk1.TabIndex = 20;
             this.chk1.Text = "Hidden";
             this.chk1.UseVisualStyleBackColor = true;
@@ -674,6 +674,7 @@
             this.btn8.TabIndex = 142;
             this.btn8.Text = "[Esc]= Exit";
             this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btn7
             // 

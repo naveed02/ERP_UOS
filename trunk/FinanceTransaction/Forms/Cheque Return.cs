@@ -29,5 +29,10 @@ namespace ERP_UOS
        {
            this.MaximizeBox = false;
        }
+
+       private void button7_Click(object sender, EventArgs e)
+       {
+           this.Close();
+       }
     }
 }

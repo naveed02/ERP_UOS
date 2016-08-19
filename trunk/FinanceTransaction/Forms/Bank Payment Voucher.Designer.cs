@@ -116,6 +116,7 @@
             this.btn10.TabIndex = 99;
             this.btn10.Text = "[Esc]= Exit";
             this.btn10.UseVisualStyleBackColor = true;
+            this.btn10.Click += new System.EventHandler(this.btn10_Click);
             // 
             // btn7
             // 

@@ -35,6 +35,11 @@ namespace ERP_UOS
             clsFillCombo.FillCombo(cboGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", lSQL, true);
             fcboDefaultValue = Convert.ToInt16(cboGroup.SelectedValue);
         }
+
+        private void bu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
      
 }

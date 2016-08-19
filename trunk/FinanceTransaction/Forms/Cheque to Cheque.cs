@@ -28,6 +28,11 @@ namespace ERP_UOS
 
         }
 
+        private void btn8_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
        
 
        

@@ -18,7 +18,7 @@ namespace ERP_UOS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Voucher_Help vh =new Voucher_Help();
+            FrmVoucherHelp vh =new FrmVoucherHelp();
             vh.ShowDialog();
         }
 
@@ -26,6 +26,11 @@ namespace ERP_UOS
         private void Cash_Receipt_Voucher_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
       

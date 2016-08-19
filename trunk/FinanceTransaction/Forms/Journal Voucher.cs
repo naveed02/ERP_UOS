@@ -18,13 +18,18 @@ namespace ERP_UOS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Voucher_Help vh = new Voucher_Help();
+            FrmVoucherHelp vh = new FrmVoucherHelp();
             vh.Show();
         }
 
         private void Journal_Voucher_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

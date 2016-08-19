@@ -48,7 +48,6 @@
             this.groupBox1.Size = new System.Drawing.Size(304, 100);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // button2
             // 
@@ -58,6 +57,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "[Esc]=Exit";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 

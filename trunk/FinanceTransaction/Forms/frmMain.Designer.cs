@@ -82,6 +82,7 @@
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.securityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.runningTransactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salesReturnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -169,6 +170,8 @@
             // 
             // saleToolStripMenuItem
             // 
+            this.saleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salesReturnToolStripMenuItem});
             this.saleToolStripMenuItem.Name = "saleToolStripMenuItem";
             this.saleToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.saleToolStripMenuItem.Text = "Sale";
@@ -494,14 +497,23 @@
             this.runningTransactionToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
             this.runningTransactionToolStripMenuItem.Text = "Running Transactions";
             // 
+            // salesReturnToolStripMenuItem
+            // 
+            this.salesReturnToolStripMenuItem.Name = "salesReturnToolStripMenuItem";
+            this.salesReturnToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salesReturnToolStripMenuItem.Text = "Sales Return";
+            this.salesReturnToolStripMenuItem.Click += new System.EventHandler(this.salesReturnToolStripMenuItem_Click);
+            // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(805, 584);
+            this.ClientSize = new System.Drawing.Size(805, 719);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmMain";
             this.Text = "ERP Software";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -569,6 +581,7 @@
         private System.Windows.Forms.ToolStripMenuItem accountReportsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ledgerStatementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cashStatementToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salesReturnToolStripMenuItem;
     }
 }
 

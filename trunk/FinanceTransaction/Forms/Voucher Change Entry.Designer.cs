@@ -96,7 +96,6 @@
             this.groupBox1.Size = new System.Drawing.Size(397, 48);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // comboBox1
             // 
@@ -153,7 +152,6 @@
             this.groupBox2.Size = new System.Drawing.Size(150, 48);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
             // 
             // button1
             // 
@@ -423,6 +421,7 @@
             this.button10.TabIndex = 118;
             this.button10.Text = "[Esc]= Exit";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 

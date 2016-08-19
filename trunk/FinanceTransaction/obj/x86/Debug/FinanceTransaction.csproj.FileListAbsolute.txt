@@ -47,5 +47,6 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.cs
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.exe
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.pdb
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.csprojResolveAssemblyReference.cache
-D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.frmCategory.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmCatDtl.resources
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmLedgerStatement.resources
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmSalesReturn.resources

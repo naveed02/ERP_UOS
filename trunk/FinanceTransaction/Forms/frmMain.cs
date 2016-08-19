@@ -215,6 +215,14 @@ namespace ERP_UOS
 
         }
 
+        private void salesReturnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSalesReturn frm = new frmSalesReturn();
+             frm.MdiParent = this;
+            frm.Show();
+
+        }
+
         
        
        

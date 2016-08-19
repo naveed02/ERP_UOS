@@ -33,5 +33,10 @@ namespace ERP_UOS
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

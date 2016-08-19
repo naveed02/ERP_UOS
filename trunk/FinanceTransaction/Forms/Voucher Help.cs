@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ERP_UOS
 {
-    public partial class Voucher_Help : Form
+    public partial class FrmVoucherHelp : Form
     {
-        public Voucher_Help()
+        public FrmVoucherHelp()
         {
             InitializeComponent();
         }
@@ -24,6 +24,11 @@ namespace ERP_UOS
         private void Voucher_Help_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

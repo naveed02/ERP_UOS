@@ -28,6 +28,11 @@ namespace ERP_UOS
              frm.ShowDialog();
          }
 
+         private void btn7_Click(object sender, EventArgs e)
+         {
+             this.Close();
+         }
+
          
          
     }
