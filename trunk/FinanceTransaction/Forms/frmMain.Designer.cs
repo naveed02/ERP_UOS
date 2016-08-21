@@ -6,7 +6,7 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
+        //
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -99,6 +99,7 @@
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.securityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.runningTransactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fromToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -188,7 +189,8 @@
             this.gateOutwardToolStripMenuItem,
             this.finishItemReceiveToolStripMenuItem,
             this.itemsOpeningBalanceToolStripMenuItem,
-            this.goodsRecToolStripMenuItem});
+            this.goodsRecToolStripMenuItem,
+            this.fromToolStripMenuItem});
             this.factortyToolStripMenuItem.Name = "factortyToolStripMenuItem";
             this.factortyToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
             this.factortyToolStripMenuItem.Text = "Factorty  Trans";
@@ -648,6 +650,12 @@
             this.runningTransactionToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
             this.runningTransactionToolStripMenuItem.Text = "Running Transactions";
             // 
+            // fromToolStripMenuItem
+            // 
+            this.fromToolStripMenuItem.Name = "fromToolStripMenuItem";
+            this.fromToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.fromToolStripMenuItem.Text = "from";
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
@@ -742,6 +750,7 @@
         private System.Windows.Forms.ToolStripMenuItem saleOrderEntryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deliveryOrderToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem invoiceEntryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fromToolStripMenuItem;
     }
 }
 
