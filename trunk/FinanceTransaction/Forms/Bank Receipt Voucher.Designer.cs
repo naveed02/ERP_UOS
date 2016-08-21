@@ -1,6 +1,6 @@
 ﻿namespace ERP_UOS
 {
-    partial class frmBank_Receipt_Voucher
+    partial class frmBankReceiptVoucher
     {
         /// <summary>
         /// Required designer variable.
@@ -485,7 +485,7 @@
             this.chk1.Text = "Printer";
             this.chk1.UseVisualStyleBackColor = true;
             // 
-            // frmBank_Receipt_Voucher
+            // frmBankReceiptVoucher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -514,7 +514,7 @@
             this.Controls.Add(this.grd1);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "frmBank_Receipt_Voucher";
+            this.Name = "frmBankReceiptVoucher";
             this.Text = "Bank_Receipt_Voucher";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Bank_Receipt_Voucher_Load);

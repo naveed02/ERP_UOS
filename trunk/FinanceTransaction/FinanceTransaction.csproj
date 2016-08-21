@@ -201,6 +201,54 @@
     <Compile Include="Forms\frmCatDetDesc.Designer.cs">
       <DependentUpon>frmCatDetDesc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmCustomerWiseAgingDueReceiveables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCustomerWiseAgingDueReceiveables.Designer.cs">
+      <DependentUpon>frmCustomerWiseAgingDueReceiveables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDeliveryOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDeliveryOrder.Designer.cs">
+      <DependentUpon>frmDeliveryOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDemandNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDemandNote.Designer.cs">
+      <DependentUpon>frmDemandNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGateInward.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGateInward.Designer.cs">
+      <DependentUpon>frmGateInward.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGateOutward.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGateOutward.Designer.cs">
+      <DependentUpon>frmGateOutward.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGoodsReceiveNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGoodsReceiveNote.Designer.cs">
+      <DependentUpon>frmGoodsReceiveNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGroupWiseAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGroupWiseAccounts.Designer.cs">
+      <DependentUpon>frmGroupWiseAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInvoiceEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInvoiceEntry.Designer.cs">
+      <DependentUpon>frmInvoiceEntry.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmLedgerStatement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +266,30 @@
     </Compile>
     <Compile Include="Forms\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPeriodWiseAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPeriodWiseAccounts.Designer.cs">
+      <DependentUpon>frmPeriodWiseAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPurchaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPurchaseOrder.Designer.cs">
+      <DependentUpon>frmPurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReceiveablesPayables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReceiveablesPayables.Designer.cs">
+      <DependentUpon>frmReceiveablesPayables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSaleOrderEntryQuotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSaleOrderEntryQuotation.Designer.cs">
+      <DependentUpon>frmSaleOrderEntryQuotation.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmSalesReturn.cs">
       <SubType>Form</SubType>
@@ -284,6 +356,12 @@
     </Compile>
     <Compile Include="Forms\Salary Report.Designer.cs">
       <DependentUpon>Salary Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleOrderEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleOrderEntry.Designer.cs">
+      <DependentUpon>SaleOrderEntry.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Search.cs">
       <SubType>Form</SubType>
@@ -486,6 +564,30 @@
     <EmbeddedResource Include="Forms\frmCatDetDesc.resx">
       <DependentUpon>frmCatDetDesc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCustomerWiseAgingDueReceiveables.resx">
+      <DependentUpon>frmCustomerWiseAgingDueReceiveables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDeliveryOrder.resx">
+      <DependentUpon>frmDeliveryOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDemandNote.resx">
+      <DependentUpon>frmDemandNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGateInward.resx">
+      <DependentUpon>frmGateInward.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGateOutward.resx">
+      <DependentUpon>frmGateOutward.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGoodsReceiveNote.resx">
+      <DependentUpon>frmGoodsReceiveNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGroupWiseAccounts.resx">
+      <DependentUpon>frmGroupWiseAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInvoiceEntry.resx">
+      <DependentUpon>frmInvoiceEntry.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmLedgerStatement.resx">
       <DependentUpon>frmLedgerStatement.cs</DependentUpon>
     </EmbeddedResource>
@@ -494,6 +596,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPeriodWiseAccounts.resx">
+      <DependentUpon>frmPeriodWiseAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPurchaseOrder.resx">
+      <DependentUpon>frmPurchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmReceiveablesPayables.resx">
+      <DependentUpon>frmReceiveablesPayables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSaleOrderEntryQuotation.resx">
+      <DependentUpon>frmSaleOrderEntryQuotation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmSalesReturn.resx">
       <DependentUpon>frmSalesReturn.cs</DependentUpon>
@@ -527,6 +641,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Salary Report.resx">
       <DependentUpon>Salary Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleOrderEntry.resx">
+      <DependentUpon>SaleOrderEntry.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Search.resx">
       <DependentUpon>Search.cs</DependentUpon>

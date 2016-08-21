@@ -171,9 +171,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(493, 312);
+            this.button4.Location = new System.Drawing.Point(501, 312);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(62, 23);
+            this.button4.Size = new System.Drawing.Size(52, 23);
             this.button4.TabIndex = 101;
             this.button4.Text = "Add";
             this.button4.UseVisualStyleBackColor = true;
@@ -233,29 +233,28 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.label10.BackColor = System.Drawing.Color.NavajoWhite;
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label10.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(405, 311);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(83, 22);
+            this.label10.Size = new System.Drawing.Size(90, 19);
             this.label10.TabIndex = 95;
-            this.label10.Text = "                        ";
+            this.label10.Text = "                    ";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.label9.BackColor = System.Drawing.Color.NavajoWhite;
             this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label9.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(139, 312);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(260, 22);
+            this.label9.Size = new System.Drawing.Size(262, 19);
             this.label9.TabIndex = 94;
-            this.label9.Text = "                                                                                 " +
-    "  ";
+            this.label9.Text = "                                                               ";
             // 
             // maskedTextBox1
             // 

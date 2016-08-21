@@ -43,7 +43,7 @@ namespace ERP_UOS
 
         private void bankReceiptVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmBank_Receipt_Voucher frm = new frmBank_Receipt_Voucher();
+            frmBankReceiptVoucher frm = new frmBankReceiptVoucher();
             frm.MdiParent = this;
             frm.Show();
 
@@ -223,6 +223,113 @@ namespace ERP_UOS
 
         }
 
+      
+
+        private void ledgerStatementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLedgerStatement frm = new frmLedgerStatement();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void demandNoteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDemandNote frm = new frmDemandNote();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void purchaseOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPurchaseOrder frm = new frmPurchaseOrder();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void gateInwardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGateInward frm = new frmGateInward();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void goodsReceiveNoteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGoodsReceiveNote frm = new frmGoodsReceiveNote();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void gateOutwardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGateOutward frm = new frmGateOutward();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void goodsRecToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGoodsReceiveNote frm = new frmGoodsReceiveNote();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void receiveablePayablesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmReceiveablesPayables frm = new frmReceiveablesPayables();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void groupWiseAccountsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGroupWiseAccounts frm = new frmGroupWiseAccounts();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void periodWiseAccountsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPeriodWiseAccounts frm = new frmPeriodWiseAccounts();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void customerWiseAgingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCustomerWiseAgingDueReceiveables frm = new frmCustomerWiseAgingDueReceiveables();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void saleOrderEntryQuotationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSaleOrderEntryQuotation frm = new frmSaleOrderEntryQuotation();
+            frm.MdiParent = this;
+            frm.Show();
+
+        }
+
+        private void saleOrderEntryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSaleOrderEntry frm = new frmSaleOrderEntry();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void deliveryOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void invoiceEntryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInvoiceEntry frm = new frmInvoiceEntry();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+      
         
        
        

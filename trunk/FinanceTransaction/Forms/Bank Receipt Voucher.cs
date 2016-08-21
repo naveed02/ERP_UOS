@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ERP_UOS
 {
-    public partial class frmBank_Receipt_Voucher : Form
+    public partial class frmBankReceiptVoucher : Form
     {
-        public frmBank_Receipt_Voucher()
+        public frmBankReceiptVoucher()
         {
             InitializeComponent();
         }

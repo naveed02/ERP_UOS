@@ -91,7 +91,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboGroup = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -679,13 +679,13 @@
             this.comboBox3.Size = new System.Drawing.Size(383, 23);
             this.comboBox3.TabIndex = 197;
             // 
-            // comboBox2
+            // cboGroup
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(148, 280);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(382, 23);
-            this.comboBox2.TabIndex = 196;
+            this.cboGroup.FormattingEnabled = true;
+            this.cboGroup.Location = new System.Drawing.Point(148, 280);
+            this.cboGroup.Name = "cboGroup";
+            this.cboGroup.Size = new System.Drawing.Size(382, 23);
+            this.cboGroup.TabIndex = 196;
             // 
             // dateTimePicker1
             // 
@@ -910,7 +910,7 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cboGroup);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -1002,7 +1002,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cboGroup;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;

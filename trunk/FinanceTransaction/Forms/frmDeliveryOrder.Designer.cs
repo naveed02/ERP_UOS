@@ -1,4 +1,4 @@
-﻿namespace ERP_UOS
+﻿namespace Menu_Strip
 {
     partial class frmDeliveryOrder
     {
