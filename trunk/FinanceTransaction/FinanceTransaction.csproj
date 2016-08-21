@@ -81,119 +81,119 @@
     <Compile Include="Class\LookUp.cs" />
     <Compile Include="Class\Photo.cs" />
     <Compile Include="Class\StringFun01.cs" />
-    <Compile Include="Forms\Account Description.cs">
+    <Compile Include="Forms\frmAccount Description.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Account Description.Designer.cs">
-      <DependentUpon>Account Description.cs</DependentUpon>
+    <Compile Include="Forms\frmAccount Description.Designer.cs">
+      <DependentUpon>frmAccount Description.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Account Selection.cs">
+    <Compile Include="Forms\frmAccount Selection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Account Selection.Designer.cs">
-      <DependentUpon>Account Selection.cs</DependentUpon>
+    <Compile Include="Forms\frmAccount Selection.Designer.cs">
+      <DependentUpon>frmAccount Selection.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Bank Payment Voucher.cs">
+    <Compile Include="Forms\frmBank Payment Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Bank Payment Voucher.Designer.cs">
-      <DependentUpon>Bank Payment Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmBank Payment Voucher.Designer.cs">
+      <DependentUpon>frmBank Payment Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Bank Receipt Voucher.cs">
+    <Compile Include="Forms\frmBank Receipt Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Bank Receipt Voucher.Designer.cs">
-      <DependentUpon>Bank Receipt Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmBank Receipt Voucher.Designer.cs">
+      <DependentUpon>frmBank Receipt Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cash Payment Voucher.cs">
+    <Compile Include="Forms\frmCash Payment Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cash Payment Voucher.Designer.cs">
-      <DependentUpon>Cash Payment Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmCash Payment Voucher.Designer.cs">
+      <DependentUpon>frmCash Payment Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cash Receipt Voucher.cs">
+    <Compile Include="Forms\frmCash Receipt Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cash Receipt Voucher.Designer.cs">
-      <DependentUpon>Cash Receipt Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmCash Receipt Voucher.Designer.cs">
+      <DependentUpon>frmCash Receipt Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cash Statement.cs">
+    <Compile Include="Forms\frmCash Statement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cash Statement.Designer.cs">
-      <DependentUpon>Cash Statement.cs</DependentUpon>
+    <Compile Include="Forms\frmCash Statement.Designer.cs">
+      <DependentUpon>frmCash Statement.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cheque Payment Voucher.cs">
+    <Compile Include="Forms\frmCheque Payment Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cheque Payment Voucher.Designer.cs">
-      <DependentUpon>Cheque Payment Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmCheque Payment Voucher.Designer.cs">
+      <DependentUpon>frmCheque Payment Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cheque Payment Vouchers.cs">
+    <Compile Include="Forms\frmCheque Payment Vouchers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cheque Payment Vouchers.Designer.cs">
-      <DependentUpon>Cheque Payment Vouchers.cs</DependentUpon>
+    <Compile Include="Forms\frmCheque Payment Vouchers.Designer.cs">
+      <DependentUpon>frmCheque Payment Vouchers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cheque Receipt Voucher.cs">
+    <Compile Include="Forms\frmCheque Receipt Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cheque Receipt Voucher.Designer.cs">
-      <DependentUpon>Cheque Receipt Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmCheque Receipt Voucher.Designer.cs">
+      <DependentUpon>frmCheque Receipt Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cheque Receipt Vouchers.cs">
+    <Compile Include="Forms\frmCheque Receipt Vouchers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cheque Receipt Vouchers.Designer.cs">
-      <DependentUpon>Cheque Receipt Vouchers.cs</DependentUpon>
+    <Compile Include="Forms\frmCheque Receipt Vouchers.Designer.cs">
+      <DependentUpon>frmCheque Receipt Vouchers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cheque Return.cs">
+    <Compile Include="Forms\frmCheque Return.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cheque Return.Designer.cs">
-      <DependentUpon>Cheque Return.cs</DependentUpon>
+    <Compile Include="Forms\frmCheque Return.Designer.cs">
+      <DependentUpon>frmCheque Return.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Cheque to Cheque.cs">
+    <Compile Include="Forms\frmCheque to Cheque.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Cheque to Cheque.Designer.cs">
-      <DependentUpon>Cheque to Cheque.cs</DependentUpon>
+    <Compile Include="Forms\frmCheque to Cheque.Designer.cs">
+      <DependentUpon>frmCheque to Cheque.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Daily Cheques.cs">
+    <Compile Include="Forms\frmDaily Cheques.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Daily Cheques.Designer.cs">
-      <DependentUpon>Daily Cheques.cs</DependentUpon>
+    <Compile Include="Forms\frmDaily Cheques.Designer.cs">
+      <DependentUpon>frmDaily Cheques.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Daily Chq.cs">
+    <Compile Include="Forms\frmDaily Chq.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Daily Chq.Designer.cs">
-      <DependentUpon>Daily Chq.cs</DependentUpon>
+    <Compile Include="Forms\frmDaily Chq.Designer.cs">
+      <DependentUpon>frmDaily Chq.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Discount Voucher.cs">
+    <Compile Include="Forms\frmDiscount Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Discount Voucher.Designer.cs">
-      <DependentUpon>Discount Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmDiscount Voucher.Designer.cs">
+      <DependentUpon>frmDiscount Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Due Cheques.cs">
+    <Compile Include="Forms\frmDue Cheques.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Due Cheques.Designer.cs">
-      <DependentUpon>Due Cheques.cs</DependentUpon>
+    <Compile Include="Forms\frmDue Cheques.Designer.cs">
+      <DependentUpon>frmDue Cheques.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Employee Description.cs">
+    <Compile Include="Forms\frmEmployee Description.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Employee Description.Designer.cs">
-      <DependentUpon>Employee Description.cs</DependentUpon>
+    <Compile Include="Forms\frmEmployee Description.Designer.cs">
+      <DependentUpon>frmEmployee Description.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Formula Defination.cs">
+    <Compile Include="Forms\frmFormula Defination.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Formula Defination.Designer.cs">
-      <DependentUpon>Formula Defination.cs</DependentUpon>
+    <Compile Include="Forms\frmFormula Defination.Designer.cs">
+      <DependentUpon>frmFormula Defination.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmCatDetDesc.cs">
       <SubType>Form</SubType>
@@ -297,65 +297,65 @@
     <Compile Include="Forms\frmSalesReturn.Designer.cs">
       <DependentUpon>frmSalesReturn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Group Size Color Selection.cs">
+    <Compile Include="Forms\frmGroup Size Color Selection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Group Size Color Selection.Designer.cs">
-      <DependentUpon>Group Size Color Selection.cs</DependentUpon>
+    <Compile Include="Forms\frmGroup Size Color Selection.Designer.cs">
+      <DependentUpon>frmGroup Size Color Selection.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Item Description.cs">
+    <Compile Include="Forms\frmItem Description.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Item Description.Designer.cs">
-      <DependentUpon>Item Description.cs</DependentUpon>
+    <Compile Include="Forms\frmItem Description.Designer.cs">
+      <DependentUpon>frmItem Description.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Journal Voucher.cs">
+    <Compile Include="Forms\frmJournal Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Journal Voucher.Designer.cs">
-      <DependentUpon>Journal Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmJournal Voucher.Designer.cs">
+      <DependentUpon>frmJournal Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Packing Formula Defination.cs">
+    <Compile Include="Forms\frmPacking Formula Defination.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Packing Formula Defination.Designer.cs">
-      <DependentUpon>Packing Formula Defination.cs</DependentUpon>
+    <Compile Include="Forms\frmPacking Formula Defination.Designer.cs">
+      <DependentUpon>frmPacking Formula Defination.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Post Dated Cheques.cs">
+    <Compile Include="Forms\frmPost Dated Cheques.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Post Dated Cheques.Designer.cs">
-      <DependentUpon>Post Dated Cheques.cs</DependentUpon>
+    <Compile Include="Forms\frmPost Dated Cheques.Designer.cs">
+      <DependentUpon>frmPost Dated Cheques.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Posted Invoice Help.cs">
+    <Compile Include="Forms\frmPosted Invoice Help.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Posted Invoice Help.Designer.cs">
-      <DependentUpon>Posted Invoice Help.cs</DependentUpon>
+    <Compile Include="Forms\frmPosted Invoice Help.Designer.cs">
+      <DependentUpon>frmPosted Invoice Help.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Return Back Receive Voucher.cs">
+    <Compile Include="Forms\frmReturn Back Receive Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Return Back Receive Voucher.Designer.cs">
-      <DependentUpon>Return Back Receive Voucher.cs</DependentUpon>
+    <Compile Include="Forms\frmReturn Back Receive Voucher.Designer.cs">
+      <DependentUpon>frmReturn Back Receive Voucher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Salary Making.cs">
+    <Compile Include="Forms\frmSalary Making.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Salary Making.Designer.cs">
-      <DependentUpon>Salary Making.cs</DependentUpon>
+    <Compile Include="Forms\frmSalary Making.Designer.cs">
+      <DependentUpon>frmSalary Making.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Salary Posting.cs">
+    <Compile Include="Forms\frmSalary Posting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Salary Posting.Designer.cs">
-      <DependentUpon>Salary Posting.cs</DependentUpon>
+    <Compile Include="Forms\frmSalary Posting.Designer.cs">
+      <DependentUpon>frmSalary Posting.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Salary Report.cs">
+    <Compile Include="Forms\frmSalary Report.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Salary Report.Designer.cs">
-      <DependentUpon>Salary Report.cs</DependentUpon>
+    <Compile Include="Forms\frmSalary Report.Designer.cs">
+      <DependentUpon>frmSalary Report.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmSaleOrderEntry.cs">
       <SubType>Form</SubType>
@@ -363,29 +363,29 @@
     <Compile Include="Forms\frmSaleOrderEntry.Designer.cs">
       <DependentUpon>frmSaleOrderEntry.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Search.cs">
+    <Compile Include="Forms\frmSearch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Search.Designer.cs">
-      <DependentUpon>Search.cs</DependentUpon>
+    <Compile Include="Forms\frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Unposted Vouchers Help.cs">
+    <Compile Include="Forms\frmUnposted Vouchers Help.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Unposted Vouchers Help.Designer.cs">
-      <DependentUpon>Unposted Vouchers Help.cs</DependentUpon>
+    <Compile Include="Forms\frmUnposted Vouchers Help.Designer.cs">
+      <DependentUpon>frmUnposted Vouchers Help.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Voucher Change Entry.cs">
+    <Compile Include="Forms\frmVoucher Change Entry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Voucher Change Entry.Designer.cs">
-      <DependentUpon>Voucher Change Entry.cs</DependentUpon>
+    <Compile Include="Forms\frmVoucher Change Entry.Designer.cs">
+      <DependentUpon>frmVoucher Change Entry.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Voucher Help.cs">
+    <Compile Include="Forms\frmVoucher Help.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Voucher Help.Designer.cs">
-      <DependentUpon>Voucher Help.cs</DependentUpon>
+    <Compile Include="Forms\frmVoucher Help.Designer.cs">
+      <DependentUpon>frmVoucher Help.cs</DependentUpon>
     </Compile>
     <Compile Include="PrintDataSets\dsAgingDue.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -504,62 +504,62 @@
     <Compile Include="UC\TN\TNumEditDataGridViewElements.cs">
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="Forms\Account Description.resx">
-      <DependentUpon>Account Description.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmAccount Description.resx">
+      <DependentUpon>frmAccount Description.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Account Selection.resx">
-      <DependentUpon>Account Selection.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmAccount Selection.resx">
+      <DependentUpon>frmAccount Selection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Bank Payment Voucher.resx">
-      <DependentUpon>Bank Payment Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmBank Payment Voucher.resx">
+      <DependentUpon>frmBank Payment Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Bank Receipt Voucher.resx">
-      <DependentUpon>Bank Receipt Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmBank Receipt Voucher.resx">
+      <DependentUpon>frmBank Receipt Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cash Payment Voucher.resx">
-      <DependentUpon>Cash Payment Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCash Payment Voucher.resx">
+      <DependentUpon>frmCash Payment Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cash Receipt Voucher.resx">
-      <DependentUpon>Cash Receipt Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCash Receipt Voucher.resx">
+      <DependentUpon>frmCash Receipt Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cash Statement.resx">
-      <DependentUpon>Cash Statement.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCash Statement.resx">
+      <DependentUpon>frmCash Statement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cheque Payment Voucher.resx">
-      <DependentUpon>Cheque Payment Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCheque Payment Voucher.resx">
+      <DependentUpon>frmCheque Payment Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cheque Payment Vouchers.resx">
-      <DependentUpon>Cheque Payment Vouchers.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCheque Payment Vouchers.resx">
+      <DependentUpon>frmCheque Payment Vouchers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cheque Receipt Voucher.resx">
-      <DependentUpon>Cheque Receipt Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCheque Receipt Voucher.resx">
+      <DependentUpon>frmCheque Receipt Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cheque Receipt Vouchers.resx">
-      <DependentUpon>Cheque Receipt Vouchers.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCheque Receipt Vouchers.resx">
+      <DependentUpon>frmCheque Receipt Vouchers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cheque Return.resx">
-      <DependentUpon>Cheque Return.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCheque Return.resx">
+      <DependentUpon>frmCheque Return.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cheque to Cheque.resx">
-      <DependentUpon>Cheque to Cheque.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmCheque to Cheque.resx">
+      <DependentUpon>frmCheque to Cheque.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Daily Cheques.resx">
-      <DependentUpon>Daily Cheques.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmDaily Cheques.resx">
+      <DependentUpon>frmDaily Cheques.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Daily Chq.resx">
-      <DependentUpon>Daily Chq.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmDaily Chq.resx">
+      <DependentUpon>frmDaily Chq.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Discount Voucher.resx">
-      <DependentUpon>Discount Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmDiscount Voucher.resx">
+      <DependentUpon>frmDiscount Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Due Cheques.resx">
-      <DependentUpon>Due Cheques.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmDue Cheques.resx">
+      <DependentUpon>frmDue Cheques.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Employee Description.resx">
-      <DependentUpon>Employee Description.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmEmployee Description.resx">
+      <DependentUpon>frmEmployee Description.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Formula Defination.resx">
-      <DependentUpon>Formula Defination.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmFormula Defination.resx">
+      <DependentUpon>frmFormula Defination.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCatDetDesc.resx">
       <DependentUpon>frmCatDetDesc.cs</DependentUpon>
@@ -612,50 +612,50 @@
     <EmbeddedResource Include="Forms\frmSalesReturn.resx">
       <DependentUpon>frmSalesReturn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Group Size Color Selection.resx">
-      <DependentUpon>Group Size Color Selection.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmGroup Size Color Selection.resx">
+      <DependentUpon>frmGroup Size Color Selection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Item Description.resx">
-      <DependentUpon>Item Description.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmItem Description.resx">
+      <DependentUpon>frmItem Description.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Journal Voucher.resx">
-      <DependentUpon>Journal Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmJournal Voucher.resx">
+      <DependentUpon>frmJournal Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Packing Formula Defination.resx">
-      <DependentUpon>Packing Formula Defination.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmPacking Formula Defination.resx">
+      <DependentUpon>frmPacking Formula Defination.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Post Dated Cheques.resx">
-      <DependentUpon>Post Dated Cheques.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmPost Dated Cheques.resx">
+      <DependentUpon>frmPost Dated Cheques.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Posted Invoice Help.resx">
-      <DependentUpon>Posted Invoice Help.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmPosted Invoice Help.resx">
+      <DependentUpon>frmPosted Invoice Help.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Return Back Receive Voucher.resx">
-      <DependentUpon>Return Back Receive Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmReturn Back Receive Voucher.resx">
+      <DependentUpon>frmReturn Back Receive Voucher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Salary Making.resx">
-      <DependentUpon>Salary Making.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmSalary Making.resx">
+      <DependentUpon>frmSalary Making.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Salary Posting.resx">
-      <DependentUpon>Salary Posting.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmSalary Posting.resx">
+      <DependentUpon>frmSalary Posting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Salary Report.resx">
-      <DependentUpon>Salary Report.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmSalary Report.resx">
+      <DependentUpon>frmSalary Report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmSaleOrderEntry.resx">
       <DependentUpon>frmSaleOrderEntry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Search.resx">
-      <DependentUpon>Search.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Unposted Vouchers Help.resx">
-      <DependentUpon>Unposted Vouchers Help.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmUnposted Vouchers Help.resx">
+      <DependentUpon>frmUnposted Vouchers Help.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Voucher Change Entry.resx">
-      <DependentUpon>Voucher Change Entry.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmVoucher Change Entry.resx">
+      <DependentUpon>frmVoucher Change Entry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Voucher Help.resx">
-      <DependentUpon>Voucher Help.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmVoucher Help.resx">
+      <DependentUpon>frmVoucher Help.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintReport\CrAgingDueRep.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
