@@ -55,11 +55,11 @@ namespace ERP_UOS
         public const string CoTitle1 = "Ranyal Industries (Pvt) Ltd.";
 
         // 2nd Connection
-        public const string Pwd2 = "smc786";
+        //public const string Pwd2 = "smc786";
         //public const string UserName2 = "sa";
 
         //public const string Pwd2 = "abcbook123$%^";
-        public const string UserName2 = "sa";
+        //public const string UserName2 = "sa";
 
         //public const string Pwd2 = "abcbook";
         //public const string UserName2 = "appsuser";
@@ -75,7 +75,7 @@ namespace ERP_UOS
 
         //public const string ServerName2 = "(Local)";
         //public const string gServerId2 = "TOSHIBA2008EP";
-        public const string ConString2 = "Data Source= " + ServerName2 + ";Initial Catalog=" + DbName2 + ";User ID=" + UserName2 + "; Password=" + Pwd2;
+        //public const string ConString2 = "Data Source= " + ServerName2 + ";Initial Catalog=" + DbName2 + ";User ID=" + UserName2 + "; Password=" + Pwd2;
         public const string CoTitle2 = "Company Name: 2nd Co.";
 
         // 3rd Connection

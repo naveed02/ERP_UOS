@@ -31,7 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.lblGateInwardNumber = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtNote = new System.Windows.Forms.TextBox();
             this.cboItemGroup = new System.Windows.Forms.ComboBox();
@@ -43,15 +42,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
             this.grdGateInward = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
             this.txtRecievingPersonName = new System.Windows.Forms.TextBox();
             this.btnPrinting = new System.Windows.Forms.Button();
@@ -62,6 +56,17 @@
             this.optApprovedVerified = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
             this.lblTotalQty = new System.Windows.Forms.Label();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtGateInwardNo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.grdGateInward)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,17 +103,6 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "&Item Group";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblGateInwardNumber
-            // 
-            this.lblGateInwardNumber.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblGateInwardNumber.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGateInwardNumber.Location = new System.Drawing.Point(138, 7);
-            this.lblGateInwardNumber.Name = "lblGateInwardNumber";
-            this.lblGateInwardNumber.Size = new System.Drawing.Size(117, 27);
-            this.lblGateInwardNumber.TabIndex = 3;
-            this.lblGateInwardNumber.Text = "01-16-1-1";
-            this.lblGateInwardNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -222,30 +216,6 @@
             this.grdGateInward.Size = new System.Drawing.Size(863, 294);
             this.grdGateInward.TabIndex = 14;
             // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Code";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 50;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Item Code";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 90;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Name";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 140;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Description";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 140;
-            // 
             // Column5
             // 
             this.Column5.HeaderText = "Size";
@@ -269,12 +239,6 @@
             this.Column8.HeaderText = "Godown";
             this.Column8.Name = "Column8";
             this.Column8.Width = 80;
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "Qty";
-            this.Column9.Name = "Column9";
-            this.Column9.Width = 80;
             // 
             // label8
             // 
@@ -383,11 +347,81 @@
             this.lblTotalQty.TabIndex = 30;
             this.lblTotalQty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.HeaderText = "Code";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.HeaderText = "Item Code";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 90;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.HeaderText = "Name";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 140;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.HeaderText = "Description";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 140;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.HeaderText = "Qty";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 80;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Code";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 50;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Item Code";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 90;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Name";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 140;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Description";
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 140;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Qty";
+            this.Column9.Name = "Column9";
+            this.Column9.Width = 80;
+            // 
+            // txtGateInwardNo
+            // 
+            this.txtGateInwardNo.Location = new System.Drawing.Point(138, 10);
+            this.txtGateInwardNo.Name = "txtGateInwardNo";
+            this.txtGateInwardNo.Size = new System.Drawing.Size(131, 21);
+            this.txtGateInwardNo.TabIndex = 31;
+            this.txtGateInwardNo.DoubleClick += new System.EventHandler(this.txtGateInwardNo_DoubleClick);
+            this.txtGateInwardNo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGateInwardNo_KeyDown);
+            // 
             // frmGateInward
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(888, 470);
+            this.Controls.Add(this.txtGateInwardNo);
             this.Controls.Add(this.lblTotalQty);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.optApprovedVerified);
@@ -409,7 +443,6 @@
             this.Controls.Add(this.cboItemGroup);
             this.Controls.Add(this.txtNote);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.lblGateInwardNumber);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -429,7 +462,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblGateInwardNumber;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtNote;
         private System.Windows.Forms.ComboBox cboItemGroup;
@@ -460,6 +492,12 @@
         private System.Windows.Forms.RadioButton optApprovedVerified;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblTotalQty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.TextBox txtGateInwardNo;
 
 
     }
