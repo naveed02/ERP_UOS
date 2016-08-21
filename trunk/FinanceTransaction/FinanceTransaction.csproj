@@ -357,11 +357,11 @@
     <Compile Include="Forms\Salary Report.Designer.cs">
       <DependentUpon>Salary Report.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SaleOrderEntry.cs">
+    <Compile Include="Forms\frmSaleOrderEntry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SaleOrderEntry.Designer.cs">
-      <DependentUpon>SaleOrderEntry.cs</DependentUpon>
+    <Compile Include="Forms\frmSaleOrderEntry.Designer.cs">
+      <DependentUpon>frmSaleOrderEntry.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Search.cs">
       <SubType>Form</SubType>
@@ -642,8 +642,8 @@
     <EmbeddedResource Include="Forms\Salary Report.resx">
       <DependentUpon>Salary Report.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SaleOrderEntry.resx">
-      <DependentUpon>SaleOrderEntry.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmSaleOrderEntry.resx">
+      <DependentUpon>frmSaleOrderEntry.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Search.resx">
       <DependentUpon>Search.cs</DependentUpon>
