@@ -18,8 +18,10 @@ namespace ERP_UOS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmVoucherHelp vh =new FrmVoucherHelp();
-            vh.ShowDialog();
+            //FrmVoucherHelp vh =new FrmVoucherHelp();
+            //vh.ShowDialog();
+
+            LookUp_Voc();
         }
 
 
@@ -33,19 +35,45 @@ namespace ERP_UOS
             this.Close();
         }
 
-      
+        private void LookUp_Voc()
+        {
+//            select doc_id, doc_strid, Convert(VARCHAR(10), doc_date, 103) AS doc_date, doc_amt
+//from gl_tran
+//where doc_vt_id = 269
 
-       
+            frmLookUp sForm = new frmLookUp(
+            "doc_id",
+            "doc_strid, Convert(VARCHAR(10), doc_date, 103), doc_amt",
+            "gl_tran",
+            "",
+            1,
+            "ID,Voc #, Date, Amount",
+            "10,10,10,10",
+            "T,T,T,T",
+            true,
+            ""
+            );
+            //
+            sForm.lupassControl = new frmLookUp.LUPassControl(PassData);
+            sForm.ShowDialog();
+        }
 
-       
+        private void PassData(object sender)
+        {
+            txtVocNo.Text = ((MaskedTextBox)sender).Text;
+        }
 
-      
+        private void txtVocNo_DoubleClick(object sender, EventArgs e)
+        {
+            LookUp_Voc();
+        }
 
-      
-       
-       
-     
-
-     
+        private void txtVocNo_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+            {
+                LookUp_Voc();
+            }
+        }
     }
 }

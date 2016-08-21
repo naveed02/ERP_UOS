@@ -51,7 +51,7 @@ namespace ERP_UOS
         // **** Commented By Usama Naveed *******************
         public const string ConString1 = "Data Source= " + ServerName1 + ";Initial Catalog=" + DbName1 + ";User ID=" + UserName1 + "; Password=" + Pwd1;
         //public const string ConString1 = "Data Source= " + CryptorEngine.DataSrc + ";Initial Catalog=" + CryptorEngine.InitCat + ";User ID=" + CryptorEngine.UserID + "; Password=" + CryptorEngine.Pwd;
-        public static string DBConnectString = string.Empty;
+        public static string DBConnectString = ConString1.ToString();
         public const string CoTitle1 = "Ranyal Industries (Pvt) Ltd.";
 
         // 2nd Connection

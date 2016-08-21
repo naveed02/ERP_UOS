@@ -25,6 +25,7 @@ namespace ERP_UOS
         private void Cash_Payment_Voucher_Load_1(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+            //
         }
 
         private void button1_Click_1(object sender, EventArgs e)

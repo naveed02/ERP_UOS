@@ -167,7 +167,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmVoucherHelp";
-            this.Text = "Voucher_Help";
+            this.Text = "Voucher Help";
             this.Load += new System.EventHandler(this.Voucher_Help_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
