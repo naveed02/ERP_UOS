@@ -114,6 +114,7 @@
             // optWithDishonouredCheques
             // 
             this.optWithDishonouredCheques.AutoSize = true;
+            this.optWithDishonouredCheques.Checked = true;
             this.optWithDishonouredCheques.Location = new System.Drawing.Point(219, 99);
             this.optWithDishonouredCheques.Name = "optWithDishonouredCheques";
             this.optWithDishonouredCheques.Size = new System.Drawing.Size(178, 19);
@@ -129,7 +130,6 @@
             this.optWithoutDishonouredCheques.Name = "optWithoutDishonouredCheques";
             this.optWithoutDishonouredCheques.Size = new System.Drawing.Size(195, 19);
             this.optWithoutDishonouredCheques.TabIndex = 22;
-            this.optWithoutDishonouredCheques.TabStop = true;
             this.optWithoutDishonouredCheques.Text = "Without Dishonoured Cheques";
             this.optWithoutDishonouredCheques.UseVisualStyleBackColor = true;
             // 
@@ -140,7 +140,6 @@
             this.optCrDaysWithoutDishonouredCheques.Name = "optCrDaysWithoutDishonouredCheques";
             this.optCrDaysWithoutDishonouredCheques.Size = new System.Drawing.Size(241, 19);
             this.optCrDaysWithoutDishonouredCheques.TabIndex = 23;
-            this.optCrDaysWithoutDishonouredCheques.TabStop = true;
             this.optCrDaysWithoutDishonouredCheques.Text = "Cr.Days Without Dishonoured Cheques";
             this.optCrDaysWithoutDishonouredCheques.UseVisualStyleBackColor = true;
             // 

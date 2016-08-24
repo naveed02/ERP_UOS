@@ -45,7 +45,6 @@
             this.gateOutwardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.finishItemReceiveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itemsOpeningBalanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.goodsRecToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saleOrderEntryQuotationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saleOrderEntryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,7 +98,7 @@
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.securityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.runningTransactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fromToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.goodsReceiveNoteReturnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -189,8 +188,7 @@
             this.gateOutwardToolStripMenuItem,
             this.finishItemReceiveToolStripMenuItem,
             this.itemsOpeningBalanceToolStripMenuItem,
-            this.goodsRecToolStripMenuItem,
-            this.fromToolStripMenuItem});
+            this.goodsReceiveNoteReturnToolStripMenuItem});
             this.factortyToolStripMenuItem.Name = "factortyToolStripMenuItem";
             this.factortyToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
             this.factortyToolStripMenuItem.Text = "Factorty  Trans";
@@ -198,35 +196,35 @@
             // demandNoteToolStripMenuItem
             // 
             this.demandNoteToolStripMenuItem.Name = "demandNoteToolStripMenuItem";
-            this.demandNoteToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.demandNoteToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.demandNoteToolStripMenuItem.Text = "Demand Note";
             this.demandNoteToolStripMenuItem.Click += new System.EventHandler(this.demandNoteToolStripMenuItem_Click);
             // 
             // purchaseOrderToolStripMenuItem
             // 
             this.purchaseOrderToolStripMenuItem.Name = "purchaseOrderToolStripMenuItem";
-            this.purchaseOrderToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.purchaseOrderToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.purchaseOrderToolStripMenuItem.Text = "Purchase Order";
             this.purchaseOrderToolStripMenuItem.Click += new System.EventHandler(this.purchaseOrderToolStripMenuItem_Click);
             // 
             // gateInwardToolStripMenuItem
             // 
             this.gateInwardToolStripMenuItem.Name = "gateInwardToolStripMenuItem";
-            this.gateInwardToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.gateInwardToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.gateInwardToolStripMenuItem.Text = "Gate Inward";
             this.gateInwardToolStripMenuItem.Click += new System.EventHandler(this.gateInwardToolStripMenuItem_Click);
             // 
             // goodsReceiveNoteToolStripMenuItem
             // 
             this.goodsReceiveNoteToolStripMenuItem.Name = "goodsReceiveNoteToolStripMenuItem";
-            this.goodsReceiveNoteToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.goodsReceiveNoteToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.goodsReceiveNoteToolStripMenuItem.Text = "Goods Receive Note";
             this.goodsReceiveNoteToolStripMenuItem.Click += new System.EventHandler(this.goodsReceiveNoteToolStripMenuItem_Click);
             // 
             // gateOutwardToolStripMenuItem
             // 
             this.gateOutwardToolStripMenuItem.Name = "gateOutwardToolStripMenuItem";
-            this.gateOutwardToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.gateOutwardToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.gateOutwardToolStripMenuItem.Text = "Gate Outward";
             this.gateOutwardToolStripMenuItem.Click += new System.EventHandler(this.gateOutwardToolStripMenuItem_Click);
             // 
@@ -235,19 +233,14 @@
             this.finishItemReceiveToolStripMenuItem.Name = "finishItemReceiveToolStripMenuItem";
             this.finishItemReceiveToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.finishItemReceiveToolStripMenuItem.Text = "Finish Item Receive";
+            this.finishItemReceiveToolStripMenuItem.Click += new System.EventHandler(this.finishItemReceiveToolStripMenuItem_Click);
             // 
             // itemsOpeningBalanceToolStripMenuItem
             // 
             this.itemsOpeningBalanceToolStripMenuItem.Name = "itemsOpeningBalanceToolStripMenuItem";
             this.itemsOpeningBalanceToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.itemsOpeningBalanceToolStripMenuItem.Text = "Items Opening Balance";
-            // 
-            // goodsRecToolStripMenuItem
-            // 
-            this.goodsRecToolStripMenuItem.Name = "goodsRecToolStripMenuItem";
-            this.goodsRecToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.goodsRecToolStripMenuItem.Text = "Goods Receive Note Return";
-            this.goodsRecToolStripMenuItem.Click += new System.EventHandler(this.goodsRecToolStripMenuItem_Click);
+            this.itemsOpeningBalanceToolStripMenuItem.Click += new System.EventHandler(this.itemsOpeningBalanceToolStripMenuItem_Click);
             // 
             // saleToolStripMenuItem
             // 
@@ -650,11 +643,12 @@
             this.runningTransactionToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
             this.runningTransactionToolStripMenuItem.Text = "Running Transactions";
             // 
-            // fromToolStripMenuItem
+            // goodsReceiveNoteReturnToolStripMenuItem
             // 
-            this.fromToolStripMenuItem.Name = "fromToolStripMenuItem";
-            this.fromToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.fromToolStripMenuItem.Text = "from";
+            this.goodsReceiveNoteReturnToolStripMenuItem.Name = "goodsReceiveNoteReturnToolStripMenuItem";
+            this.goodsReceiveNoteReturnToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.goodsReceiveNoteReturnToolStripMenuItem.Text = "Goods Receive Note Return";
+            this.goodsReceiveNoteReturnToolStripMenuItem.Click += new System.EventHandler(this.goodsReceiveNoteReturnToolStripMenuItem_Click);
             // 
             // frmMain
             // 
@@ -741,7 +735,6 @@
         private System.Windows.Forms.ToolStripMenuItem gateOutwardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem finishItemReceiveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem itemsOpeningBalanceToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem goodsRecToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem receiveablePayablesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem groupWiseAccountsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem periodWiseAccountsToolStripMenuItem;
@@ -750,7 +743,7 @@
         private System.Windows.Forms.ToolStripMenuItem saleOrderEntryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deliveryOrderToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem invoiceEntryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fromToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem goodsReceiveNoteReturnToolStripMenuItem;
     }
 }
 

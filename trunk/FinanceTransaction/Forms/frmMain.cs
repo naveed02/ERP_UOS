@@ -329,6 +329,27 @@ namespace ERP_UOS
             frm.Show();
         }
 
+        private void finishItemReceiveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFinishItemReceive frm = new frmFinishItemReceive();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void itemsOpeningBalanceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmItemsOpeningBalance frm = new frmItemsOpeningBalance();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void goodsReceiveNoteReturnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGoodsReceiveNoteReturn frm = new frmGoodsReceiveNoteReturn();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
       
         
        

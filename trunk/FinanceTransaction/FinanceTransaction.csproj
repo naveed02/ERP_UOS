@@ -189,6 +189,12 @@
     <Compile Include="Forms\frmEmployeeDescription.Designer.cs">
       <DependentUpon>frmEmployeeDescription.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmFinishItemReceive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFinishItemReceive.Designer.cs">
+      <DependentUpon>frmFinishItemReceive.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmFormulaDefinition.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -237,6 +243,12 @@
     <Compile Include="Forms\frmGoodsReceiveNote.Designer.cs">
       <DependentUpon>frmGoodsReceiveNote.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmGoodsReceiveNotReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGoodsReceiveNotReturn.Designer.cs">
+      <DependentUpon>frmGoodsReceiveNotReturn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmGroupWiseAccounts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -248,6 +260,12 @@
     </Compile>
     <Compile Include="Forms\frmInvoiceEntry.Designer.cs">
       <DependentUpon>frmInvoiceEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmItemsOpeningBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmItemsOpeningBalance.Designer.cs">
+      <DependentUpon>frmItemsOpeningBalance.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmLedgerStatement.cs">
       <SubType>Form</SubType>
@@ -558,6 +576,9 @@
     <EmbeddedResource Include="Forms\frmEmployeeDescription.resx">
       <DependentUpon>frmEmployeeDescription.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFinishItemReceive.resx">
+      <DependentUpon>frmFinishItemReceive.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmFormulaDefinition.resx">
       <DependentUpon>frmFormulaDefinition.cs</DependentUpon>
     </EmbeddedResource>
@@ -582,11 +603,17 @@
     <EmbeddedResource Include="Forms\frmGoodsReceiveNote.resx">
       <DependentUpon>frmGoodsReceiveNote.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGoodsReceiveNotReturn.resx">
+      <DependentUpon>frmGoodsReceiveNotReturn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmGroupWiseAccounts.resx">
       <DependentUpon>frmGroupWiseAccounts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmInvoiceEntry.resx">
       <DependentUpon>frmInvoiceEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmItemsOpeningBalance.resx">
+      <DependentUpon>frmItemsOpeningBalance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmLedgerStatement.resx">
       <DependentUpon>frmLedgerStatement.cs</DependentUpon>

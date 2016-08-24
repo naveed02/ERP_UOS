@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ERP_UOS
 {
-    public partial class frmGoodsReceiveNotReturn : Form
+    public partial class frmGoodsReceiveNoteReturn : Form
     {
-        public frmGoodsReceiveNotReturn()
+        public frmGoodsReceiveNoteReturn()
         {
             InitializeComponent();
         }
