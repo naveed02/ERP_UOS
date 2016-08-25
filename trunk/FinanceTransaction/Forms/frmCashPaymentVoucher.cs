@@ -16,11 +16,12 @@ namespace ERP_UOS
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FrmVoucherHelp vh = new FrmVoucherHelp();
-            vh.Show();
-        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    //FrmVoucherHelp vh = new FrmVoucherHelp();
+        //    //vh.Show();
+        //    LookUp_Voc();
+        //}
 
         private void Cash_Payment_Voucher_Load_1(object sender, EventArgs e)
         {
@@ -30,13 +31,61 @@ namespace ERP_UOS
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            FrmVoucherHelp frm = new FrmVoucherHelp();
-            frm.ShowDialog();
+            //FrmVoucherHelp frm = new FrmVoucherHelp();
+            //frm.ShowDialog();
+            LookUp_Voc();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+        private void LookUp_Voc()
+        {
+            //            select doc_id, doc_strid, Convert(VARCHAR(10), doc_date, 103) AS doc_date, doc_amt
+            //from gl_tran
+            //where doc_vt_id = 269
+
+            frmLookUp sForm = new frmLookUp(
+            "doc_id",
+            "doc_strid, Convert(VARCHAR(10), doc_date, 103), doc_amt",
+            "gl_tran",
+             this.Text.ToString(),
+            1,
+            "ID,Voc #, Date, Amount",
+            "10,10,10,10",
+            "T,T,T,T",
+            true,
+            "",
+            "",
+            "TextBox"
+
+            );
+
+
+
+            sForm.lupassControl = new frmLookUp.LUPassControl(PassDataVocID);
+            sForm.ShowDialog();
+        }
+        private void PassDataVocID(object sender)
+        {
+            txtVocNo.Text = ((MaskedTextBox)sender).Text;
+        }
+
+        private void txtVocNo_DoubleClick(object sender, EventArgs e)
+        {
+            LookUp_Voc();
+        }
+        private void txtVocNo_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+            {
+                LookUp_Voc();
+            }
+        }
+
+
     }
 }
+

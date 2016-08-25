@@ -45,13 +45,16 @@ namespace ERP_UOS
             "doc_id",
             "doc_strid, Convert(VARCHAR(10), doc_date, 103), doc_amt",
             "gl_tran",
-            "",
+            
+            this.Text.ToString(),
             1,
             "ID,Voc #, Date, Amount",
             "10,10,10,10",
             "T,T,T,T",
             true,
-            ""
+            "",
+            "",
+            "TextBox"
             );
             //
             sForm.lupassControl = new frmLookUp.LUPassControl(PassData);
@@ -75,5 +78,7 @@ namespace ERP_UOS
                 LookUp_Voc();
             }
         }
+
+       
     }
 }

@@ -36,7 +36,7 @@ namespace ERP_UOS
 
         private void journalVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Journal_Voucher frm = new Journal_Voucher();
+            frmJournalVoucher frm = new frmJournalVoucher();
             frm.MdiParent = this;
             frm.Show();
         }

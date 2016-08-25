@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ERP_UOS
 {
-    public partial class Journal_Voucher : Form
+    public partial class frmJournalVoucher : Form
     {
-        public Journal_Voucher()
+        public frmJournalVoucher()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace ERP_UOS
 {
-    partial class Journal_Voucher
+    partial class frmJournalVoucher
     {
         /// <summary>
         /// Required designer variable.
@@ -421,11 +421,11 @@
             this.textBox3.Size = new System.Drawing.Size(200, 20);
             this.textBox3.TabIndex = 114;
             // 
-            // Journal_Voucher
+            // frmJournalVoucher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(756, 354);
+            this.ClientSize = new System.Drawing.Size(559, 354);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -457,8 +457,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Name = "Journal_Voucher";
-            this.Text = "Journal_Voucher";
+            this.Name = "frmJournalVoucher";
+            this.Text = "Journal Voucher";
             this.Load += new System.EventHandler(this.Journal_Voucher_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

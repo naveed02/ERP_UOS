@@ -63,3 +63,6 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\Menu_Strip.frmDeliver
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmInvoiceEntry.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmSaleOrderEntryQuotation.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmSaleOrderEntry.resources
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmFinishItemReceive.resources
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmGoodsReceiveNoteReturn.resources
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmItemsOpeningBalance.resources
