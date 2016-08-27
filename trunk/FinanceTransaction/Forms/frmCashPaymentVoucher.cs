@@ -70,7 +70,7 @@ namespace ERP_UOS
         }
         private void PassDataVocID(object sender)
         {
-            txtVocNo.Text = ((MaskedTextBox)sender).Text;
+            txtVocNo.Text = ((TextBox)sender).Text;
         }
 
         private void txtVocNo_DoubleClick(object sender, EventArgs e)
