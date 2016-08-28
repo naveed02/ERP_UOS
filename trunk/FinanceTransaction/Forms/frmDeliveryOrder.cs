@@ -11,6 +11,7 @@ namespace ERP_UOS
 {
     public partial class frmDeliveryOrder : Form
     {
+        int fcboDefaultValue = 0;
         public frmDeliveryOrder()
         {
             InitializeComponent();
@@ -24,6 +25,28 @@ namespace ERP_UOS
         private void frmDeliveryOrder_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+            AtFormLoad();
+        }
+        private void AtFormLoad()
+        {
+            string ISQL = string.Empty;
+
+            ISQL = "SELECT cgdCode, cgdDesc "
+                 + " FROM CatDtl "
+                 + " WHERE cgCode = 6 "
+                 + " ORDER BY cgdDesc";
+
+            clsFillCombo.FillCombo(cboItemGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboItemGroup.SelectedValue);
+
+            ISQL = " select cgdCode,CgdDesc"
+                + " from CatDtl"
+                + " where cgCode=15"
+                + " order by cgdDesc";
+
+            clsFillCombo.FillCombo(cboMainGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboMainGroup.SelectedValue);
+
         }
     }
 }

@@ -80,7 +80,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cboAdda = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
@@ -90,15 +90,15 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.cboGroup = new System.Windows.Forms.ComboBox();
+            this.cboCategory = new System.Windows.Forms.ComboBox();
+            this.cboItemGroup = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboMainGroup = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -568,13 +568,13 @@
             this.textBox4.Size = new System.Drawing.Size(433, 21);
             this.textBox4.TabIndex = 208;
             // 
-            // comboBox4
+            // cboAdda
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(539, 215);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(434, 23);
-            this.comboBox4.TabIndex = 207;
+            this.cboAdda.FormattingEnabled = true;
+            this.cboAdda.Location = new System.Drawing.Point(539, 215);
+            this.cboAdda.Name = "cboAdda";
+            this.cboAdda.Size = new System.Drawing.Size(434, 23);
+            this.cboAdda.TabIndex = 207;
             // 
             // label20
             // 
@@ -671,21 +671,21 @@
             this.label13.Text = "Date";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox3
+            // cboCategory
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(147, 313);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(383, 23);
-            this.comboBox3.TabIndex = 197;
+            this.cboCategory.FormattingEnabled = true;
+            this.cboCategory.Location = new System.Drawing.Point(147, 313);
+            this.cboCategory.Name = "cboCategory";
+            this.cboCategory.Size = new System.Drawing.Size(383, 23);
+            this.cboCategory.TabIndex = 197;
             // 
-            // cboGroup
+            // cboItemGroup
             // 
-            this.cboGroup.FormattingEnabled = true;
-            this.cboGroup.Location = new System.Drawing.Point(148, 280);
-            this.cboGroup.Name = "cboGroup";
-            this.cboGroup.Size = new System.Drawing.Size(382, 23);
-            this.cboGroup.TabIndex = 196;
+            this.cboItemGroup.FormattingEnabled = true;
+            this.cboItemGroup.Location = new System.Drawing.Point(148, 280);
+            this.cboItemGroup.Name = "cboItemGroup";
+            this.cboItemGroup.Size = new System.Drawing.Size(382, 23);
+            this.cboItemGroup.TabIndex = 196;
             // 
             // dateTimePicker1
             // 
@@ -739,13 +739,13 @@
             this.label10.Text = "01-2-168-1";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // comboBox1
+            // cboMainGroup
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(147, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(453, 23);
-            this.comboBox1.TabIndex = 189;
+            this.cboMainGroup.FormattingEnabled = true;
+            this.cboMainGroup.Location = new System.Drawing.Point(147, 5);
+            this.cboMainGroup.Name = "cboMainGroup";
+            this.cboMainGroup.Size = new System.Drawing.Size(453, 23);
+            this.cboMainGroup.TabIndex = 189;
             // 
             // label9
             // 
@@ -899,7 +899,7 @@
             this.Controls.Add(this.label19);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.cboAdda);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.dateTimePicker2);
@@ -909,15 +909,15 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.cboGroup);
+            this.Controls.Add(this.cboCategory);
+            this.Controls.Add(this.cboItemGroup);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboMainGroup);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -991,7 +991,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cboAdda;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
@@ -1001,15 +1001,15 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox cboGroup;
+        private System.Windows.Forms.ComboBox cboCategory;
+        private System.Windows.Forms.ComboBox cboItemGroup;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboMainGroup;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;

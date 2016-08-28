@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.button13 = new System.Windows.Forms.Button();
+            this.btnContractView = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.label44 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
@@ -100,8 +100,8 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboCategory = new System.Windows.Forms.ComboBox();
+            this.cboItemGroup = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -113,7 +113,7 @@
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboMainGroup = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -129,14 +129,14 @@
             this.comboBox5.Size = new System.Drawing.Size(212, 23);
             this.comboBox5.TabIndex = 175;
             // 
-            // button13
+            // btnContractView
             // 
-            this.button13.Location = new System.Drawing.Point(120, 322);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(120, 27);
-            this.button13.TabIndex = 174;
-            this.button13.Text = "Contract View";
-            this.button13.UseVisualStyleBackColor = true;
+            this.btnContractView.Location = new System.Drawing.Point(120, 322);
+            this.btnContractView.Name = "btnContractView";
+            this.btnContractView.Size = new System.Drawing.Size(120, 27);
+            this.btnContractView.TabIndex = 174;
+            this.btnContractView.Text = "Contract View";
+            this.btnContractView.UseVisualStyleBackColor = true;
             // 
             // button12
             // 
@@ -786,21 +786,22 @@
             this.label13.TabIndex = 116;
             this.label13.Text = "Date";
             // 
-            // comboBox3
+            // cboCategory
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(131, 290);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(328, 23);
-            this.comboBox3.TabIndex = 115;
+            this.cboCategory.FormattingEnabled = true;
+            this.cboCategory.Location = new System.Drawing.Point(131, 290);
+            this.cboCategory.Name = "cboCategory";
+            this.cboCategory.Size = new System.Drawing.Size(328, 23);
+            this.cboCategory.TabIndex = 115;
+            this.cboCategory.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
-            // comboBox2
+            // cboItemGroup
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(131, 255);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(328, 23);
-            this.comboBox2.TabIndex = 114;
+            this.cboItemGroup.FormattingEnabled = true;
+            this.cboItemGroup.Location = new System.Drawing.Point(131, 255);
+            this.cboItemGroup.Name = "cboItemGroup";
+            this.cboItemGroup.Size = new System.Drawing.Size(328, 23);
+            this.cboItemGroup.TabIndex = 114;
             // 
             // dateTimePicker1
             // 
@@ -913,13 +914,13 @@
             this.label10.Text = "01-11-168-1-1";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // comboBox1
+            // cboMainGroup
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(131, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(389, 23);
-            this.comboBox1.TabIndex = 107;
+            this.cboMainGroup.FormattingEnabled = true;
+            this.cboMainGroup.Location = new System.Drawing.Point(131, 5);
+            this.cboMainGroup.Name = "cboMainGroup";
+            this.cboMainGroup.Size = new System.Drawing.Size(389, 23);
+            this.cboMainGroup.TabIndex = 107;
             // 
             // label7
             // 
@@ -975,7 +976,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 682);
             this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.btnContractView);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.label44);
             this.Controls.Add(this.label43);
@@ -1034,8 +1035,8 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cboCategory);
+            this.Controls.Add(this.cboItemGroup);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -1047,7 +1048,7 @@
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboMainGroup);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -1065,7 +1066,7 @@
         #endregion
 
         private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btnContractView;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label43;
@@ -1136,8 +1137,8 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cboCategory;
+        private System.Windows.Forms.ComboBox cboItemGroup;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
@@ -1149,7 +1150,7 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboMainGroup;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

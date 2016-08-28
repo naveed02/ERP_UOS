@@ -73,12 +73,12 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cboGoDown = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.r = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -90,14 +90,14 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboCategory = new System.Windows.Forms.ComboBox();
+            this.cboItemGroup = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboMainGroup = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -506,13 +506,13 @@
             this.label23.Size = new System.Drawing.Size(332, 27);
             this.label23.TabIndex = 100;
             // 
-            // comboBox5
+            // cboGoDown
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(562, 243);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(332, 23);
-            this.comboBox5.TabIndex = 99;
+            this.cboGoDown.FormattingEnabled = true;
+            this.cboGoDown.Location = new System.Drawing.Point(562, 243);
+            this.cboGoDown.Name = "cboGoDown";
+            this.cboGoDown.Size = new System.Drawing.Size(332, 23);
+            this.cboGoDown.TabIndex = 99;
             // 
             // label22
             // 
@@ -552,13 +552,13 @@
             this.textBox4.Size = new System.Drawing.Size(476, 21);
             this.textBox4.TabIndex = 95;
             // 
-            // comboBox4
+            // r
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(414, 151);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(475, 23);
-            this.comboBox4.TabIndex = 94;
+            this.r.FormattingEnabled = true;
+            this.r.Location = new System.Drawing.Point(414, 151);
+            this.r.Name = "r";
+            this.r.Size = new System.Drawing.Size(475, 23);
+            this.r.TabIndex = 94;
             // 
             // label20
             // 
@@ -674,21 +674,21 @@
             this.label13.TabIndex = 83;
             this.label13.Text = "Date";
             // 
-            // comboBox3
+            // cboCategory
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(134, 280);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(334, 23);
-            this.comboBox3.TabIndex = 82;
+            this.cboCategory.FormattingEnabled = true;
+            this.cboCategory.Location = new System.Drawing.Point(134, 280);
+            this.cboCategory.Name = "cboCategory";
+            this.cboCategory.Size = new System.Drawing.Size(334, 23);
+            this.cboCategory.TabIndex = 82;
             // 
-            // comboBox2
+            // cboItemGroup
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(134, 247);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(334, 23);
-            this.comboBox2.TabIndex = 81;
+            this.cboItemGroup.FormattingEnabled = true;
+            this.cboItemGroup.Location = new System.Drawing.Point(134, 247);
+            this.cboItemGroup.Name = "cboItemGroup";
+            this.cboItemGroup.Size = new System.Drawing.Size(334, 23);
+            this.cboItemGroup.TabIndex = 81;
             // 
             // dateTimePicker1
             // 
@@ -734,13 +734,13 @@
             this.label10.Text = "01-11-168-1-1";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // comboBox1
+            // cboMainGroup
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(134, 6);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(334, 23);
-            this.comboBox1.TabIndex = 74;
+            this.cboMainGroup.FormattingEnabled = true;
+            this.cboMainGroup.Location = new System.Drawing.Point(134, 6);
+            this.cboMainGroup.Name = "cboMainGroup";
+            this.cboMainGroup.Size = new System.Drawing.Size(334, 23);
+            this.cboMainGroup.TabIndex = 74;
             // 
             // label9
             // 
@@ -886,12 +886,12 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.cboGoDown);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.r);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label19);
@@ -903,14 +903,14 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cboCategory);
+            this.Controls.Add(this.cboItemGroup);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboMainGroup);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -979,12 +979,12 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox cboGoDown;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox r;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label19;
@@ -996,14 +996,14 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cboCategory;
+        private System.Windows.Forms.ComboBox cboItemGroup;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboMainGroup;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;

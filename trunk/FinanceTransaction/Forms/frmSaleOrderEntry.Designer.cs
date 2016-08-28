@@ -58,12 +58,12 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cboCategory = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboItemGroup = new System.Windows.Forms.ComboBox();
+            this.cboTransport = new System.Windows.Forms.ComboBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -76,7 +76,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboMainGroup = new System.Windows.Forms.ComboBox();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
             this.label42 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
@@ -436,13 +436,13 @@
             this.Column12.HeaderText = "Rate";
             this.Column12.Name = "Column12";
             // 
-            // comboBox4
+            // cboCategory
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(317, 159);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(131, 21);
-            this.comboBox4.TabIndex = 197;
+            this.cboCategory.FormattingEnabled = true;
+            this.cboCategory.Location = new System.Drawing.Point(317, 159);
+            this.cboCategory.Name = "cboCategory";
+            this.cboCategory.Size = new System.Drawing.Size(131, 21);
+            this.cboCategory.TabIndex = 197;
             // 
             // label13
             // 
@@ -474,22 +474,22 @@
             this.label12.TabIndex = 195;
             this.label12.Text = "Bal";
             // 
-            // comboBox3
+            // cboItemGroup
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(80, 157);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(157, 21);
-            this.comboBox3.TabIndex = 193;
+            this.cboItemGroup.FormattingEnabled = true;
+            this.cboItemGroup.Location = new System.Drawing.Point(80, 157);
+            this.cboItemGroup.Name = "cboItemGroup";
+            this.cboItemGroup.Size = new System.Drawing.Size(157, 21);
+            this.cboItemGroup.TabIndex = 193;
             // 
-            // comboBox2
+            // cboTransport
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(84, 130);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(141, 23);
-            this.comboBox2.TabIndex = 192;
+            this.cboTransport.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboTransport.FormattingEnabled = true;
+            this.cboTransport.Location = new System.Drawing.Point(84, 130);
+            this.cboTransport.Name = "cboTransport";
+            this.cboTransport.Size = new System.Drawing.Size(141, 23);
+            this.cboTransport.TabIndex = 192;
             // 
             // textBox4
             // 
@@ -615,13 +615,13 @@
             this.label2.TabIndex = 180;
             this.label2.Text = "Order No.";
             // 
-            // comboBox1
+            // cboMainGroup
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(89, 6);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(157, 21);
-            this.comboBox1.TabIndex = 179;
+            this.cboMainGroup.FormattingEnabled = true;
+            this.cboMainGroup.Location = new System.Drawing.Point(89, 6);
+            this.cboMainGroup.Name = "cboMainGroup";
+            this.cboMainGroup.Size = new System.Drawing.Size(157, 21);
+            this.cboMainGroup.TabIndex = 179;
             // 
             // radioButton12
             // 
@@ -1088,12 +1088,12 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.cboCategory);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cboItemGroup);
+            this.Controls.Add(this.cboTransport);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label10);
@@ -1106,7 +1106,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboMainGroup);
             this.Controls.Add(this.radioButton12);
             this.Controls.Add(this.label42);
             this.Controls.Add(this.label41);
@@ -1187,12 +1187,12 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cboCategory;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cboItemGroup;
+        private System.Windows.Forms.ComboBox cboTransport;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label10;
@@ -1205,7 +1205,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboMainGroup;
         private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label41;

@@ -11,6 +11,7 @@ namespace ERP_UOS
 {
     public partial class frmSaleOrderEntry : Form
     {
+        int fcboDefaultValue = 0;
         public frmSaleOrderEntry()
         {
             InitializeComponent();
@@ -24,6 +25,39 @@ namespace ERP_UOS
         private void frmSaleOrderEntry_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+            AtfrmLoad();
+
+
+
+        }
+        private void AtfrmLoad()
+        {
+            string ISQL = String.Empty;
+            ISQL = " select cgdCode,CgdDesc"
+                 + " from CatDtl"
+                 + " where cgCode=6"
+                 + " order by cgdDesc";
+
+            clsFillCombo.FillCombo(cboItemGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboItemGroup.SelectedValue);
+
+            ISQL = " select cgdCode,CgdDesc"
+                    + " from CatDtl"
+                    + " where cgCode=15"
+                    + " order by cgdDesc";
+
+            clsFillCombo.FillCombo(cboMainGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboMainGroup.SelectedValue);
+
+            ISQL = " select cgdCode,CgdDesc"
+                  + " from CatDtl"
+                  + " where cgCode=14"
+                  + " order by cgdDesc";
+
+            clsFillCombo.FillCombo(cboTransport, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboTransport.SelectedValue);
         }
     }
+
+
 }

@@ -31,15 +31,24 @@ namespace ERP_UOS
 
         private void AtFormLoad()
         {
-            string lSQL = string.Empty;
+            string ISQL = string.Empty;
 
-            lSQL = "SELECT cgdCode, cgdDesc "
+            ISQL = "SELECT cgdCode, cgdDesc "
                  + " FROM CatDtl "
                  + " WHERE cgCode = 6 "
                  + " ORDER BY cgdDesc";
 
-            clsFillCombo.FillCombo(cboGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", lSQL, true);
-            fcboDefaultValue = Convert.ToInt16(cboGroup.SelectedValue);
+            clsFillCombo.FillCombo(cboItemGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboItemGroup.SelectedValue);
+
+            ISQL = " select cgdCode,CgdDesc"
+                + " from CatDtl"
+                + " where cgCode=15"
+                + " order by cgdDesc";
+
+            clsFillCombo.FillCombo(cboMainGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboMainGroup.SelectedValue);
+
         }
     }
 }
