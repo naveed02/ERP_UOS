@@ -50,7 +50,7 @@ namespace ERP_UOS
         }
         private void bnakPaymentVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmBank_Payment_Voucher frm = new frmBank_Payment_Voucher();
+            frmBankPaymentVoucher frm = new frmBankPaymentVoucher();
             frm.MdiParent = this;
             frm.Show();
         }
