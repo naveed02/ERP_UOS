@@ -29,41 +29,41 @@
         private void InitializeComponent()
         {
             this.chk1 = new System.Windows.Forms.CheckBox();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn9 = new System.Windows.Forms.Button();
-            this.btn10 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.txt3 = new System.Windows.Forms.TextBox();
-            this.txt2 = new System.Windows.Forms.TextBox();
+            this.btnHlp = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
+            this.btnEsc = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.txtVocDet = new System.Windows.Forms.TextBox();
+            this.txtAcc = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.lbl6 = new System.Windows.Forms.Label();
-            this.lbl5 = new System.Windows.Forms.Label();
-            this.msk2 = new System.Windows.Forms.MaskedTextBox();
+            this.lblBal = new System.Windows.Forms.Label();
+            this.lblAccName = new System.Windows.Forms.Label();
+            this.mskAccount = new System.Windows.Forms.MaskedTextBox();
             this.lbl4 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.btn1 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.btn2 = new System.Windows.Forms.Button();
+            this.btnView = new System.Windows.Forms.Button();
+            this.btnHelp = new System.Windows.Forms.Button();
+            this.lblName = new System.Windows.Forms.Label();
+            this.btnNew = new System.Windows.Forms.Button();
             this.dtp1 = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txt1 = new System.Windows.Forms.TextBox();
+            this.txtDetail = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.mskBank = new System.Windows.Forms.MaskedTextBox();
-            this.lbl3 = new System.Windows.Forms.Label();
+            this.lblBalance = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.grdBank = new System.Windows.Forms.DataGridView();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,76 +85,76 @@
             this.chk1.Text = "Printer";
             this.chk1.UseVisualStyleBackColor = true;
             // 
-            // btn8
+            // btnHlp
             // 
-            this.btn8.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8.Location = new System.Drawing.Point(485, 375);
-            this.btn8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(75, 28);
-            this.btn8.TabIndex = 101;
-            this.btn8.Text = "[F1= Help]";
-            this.btn8.UseVisualStyleBackColor = true;
+            this.btnHlp.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHlp.Location = new System.Drawing.Point(485, 375);
+            this.btnHlp.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnHlp.Name = "btnHlp";
+            this.btnHlp.Size = new System.Drawing.Size(75, 28);
+            this.btnHlp.TabIndex = 101;
+            this.btnHlp.Text = "[F1= Help]";
+            this.btnHlp.UseVisualStyleBackColor = true;
             // 
-            // btn9
+            // btnPrint
             // 
-            this.btn9.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn9.Location = new System.Drawing.Point(565, 375);
-            this.btn9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(75, 28);
-            this.btn9.TabIndex = 100;
-            this.btn9.Text = "Print";
-            this.btn9.UseVisualStyleBackColor = true;
+            this.btnPrint.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.Location = new System.Drawing.Point(565, 375);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(75, 28);
+            this.btnPrint.TabIndex = 100;
+            this.btnPrint.Text = "Print";
+            this.btnPrint.UseVisualStyleBackColor = true;
             // 
-            // btn10
+            // btnEsc
             // 
-            this.btn10.Location = new System.Drawing.Point(402, 411);
-            this.btn10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn10.Name = "btn10";
-            this.btn10.Size = new System.Drawing.Size(75, 28);
-            this.btn10.TabIndex = 99;
-            this.btn10.Text = "[Esc]= Exit";
-            this.btn10.UseVisualStyleBackColor = true;
-            this.btn10.Click += new System.EventHandler(this.btn10_Click);
+            this.btnEsc.Location = new System.Drawing.Point(402, 411);
+            this.btnEsc.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEsc.Name = "btnEsc";
+            this.btnEsc.Size = new System.Drawing.Size(75, 28);
+            this.btnEsc.TabIndex = 99;
+            this.btnEsc.Text = "[Esc]= Exit";
+            this.btnEsc.UseVisualStyleBackColor = true;
+            this.btnEsc.Click += new System.EventHandler(this.btn10_Click);
             // 
-            // btn7
+            // btnExit
             // 
-            this.btn7.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn7.Location = new System.Drawing.Point(402, 375);
-            this.btn7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(75, 28);
-            this.btn7.TabIndex = 98;
-            this.btn7.Text = " Exit+Save";
-            this.btn7.UseVisualStyleBackColor = true;
+            this.btnExit.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(402, 375);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 28);
+            this.btnExit.TabIndex = 98;
+            this.btnExit.Text = " Exit+Save";
+            this.btnExit.UseVisualStyleBackColor = true;
             // 
-            // btn6
+            // btnDelete
             // 
-            this.btn6.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.Location = new System.Drawing.Point(580, 339);
-            this.btn6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(54, 28);
-            this.btn6.TabIndex = 97;
-            this.btn6.Text = "  Delete";
-            this.btn6.UseVisualStyleBackColor = true;
+            this.btnDelete.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(580, 339);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(54, 28);
+            this.btnDelete.TabIndex = 97;
+            this.btnDelete.Text = "  Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
             // 
-            // txt3
+            // txtVocDet
             // 
-            this.txt3.Location = new System.Drawing.Point(118, 383);
-            this.txt3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt3.Name = "txt3";
-            this.txt3.Size = new System.Drawing.Size(281, 21);
-            this.txt3.TabIndex = 94;
+            this.txtVocDet.Location = new System.Drawing.Point(118, 383);
+            this.txtVocDet.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtVocDet.Name = "txtVocDet";
+            this.txtVocDet.Size = new System.Drawing.Size(281, 21);
+            this.txtVocDet.TabIndex = 94;
             // 
-            // txt2
+            // txtAcc
             // 
-            this.txt2.Location = new System.Drawing.Point(1, 383);
-            this.txt2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(113, 21);
-            this.txt2.TabIndex = 93;
+            this.txtAcc.Location = new System.Drawing.Point(1, 383);
+            this.txtAcc.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAcc.Name = "txtAcc";
+            this.txtAcc.Size = new System.Drawing.Size(113, 21);
+            this.txtAcc.TabIndex = 93;
             // 
             // label18
             // 
@@ -179,39 +179,39 @@
             this.label17.TabIndex = 90;
             this.label17.Text = "        Account               ";
             // 
-            // lbl6
+            // lblBal
             // 
-            this.lbl6.AutoSize = true;
-            this.lbl6.BackColor = System.Drawing.Color.NavajoWhite;
-            this.lbl6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl6.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl6.Location = new System.Drawing.Point(402, 339);
-            this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(76, 18);
-            this.lbl6.TabIndex = 89;
-            this.lbl6.Text = "                      ";
+            this.lblBal.AutoSize = true;
+            this.lblBal.BackColor = System.Drawing.Color.NavajoWhite;
+            this.lblBal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblBal.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBal.Location = new System.Drawing.Point(402, 339);
+            this.lblBal.Name = "lblBal";
+            this.lblBal.Size = new System.Drawing.Size(76, 18);
+            this.lblBal.TabIndex = 89;
+            this.lblBal.Text = "                      ";
             // 
-            // lbl5
+            // lblAccName
             // 
-            this.lbl5.AutoSize = true;
-            this.lbl5.BackColor = System.Drawing.Color.NavajoWhite;
-            this.lbl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl5.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl5.Location = new System.Drawing.Point(155, 339);
-            this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(241, 18);
-            this.lbl5.TabIndex = 88;
-            this.lbl5.Text = "                                                                             ";
+            this.lblAccName.AutoSize = true;
+            this.lblAccName.BackColor = System.Drawing.Color.NavajoWhite;
+            this.lblAccName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblAccName.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAccName.Location = new System.Drawing.Point(155, 339);
+            this.lblAccName.Name = "lblAccName";
+            this.lblAccName.Size = new System.Drawing.Size(241, 18);
+            this.lblAccName.TabIndex = 88;
+            this.lblAccName.Text = "                                                                             ";
             // 
-            // msk2
+            // mskAccount
             // 
-            this.msk2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.msk2.Location = new System.Drawing.Point(1, 336);
-            this.msk2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.msk2.Mask = "0-0-00-00-0000";
-            this.msk2.Name = "msk2";
-            this.msk2.Size = new System.Drawing.Size(148, 21);
-            this.msk2.TabIndex = 87;
+            this.mskAccount.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mskAccount.Location = new System.Drawing.Point(1, 336);
+            this.mskAccount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mskAccount.Mask = "0-0-00-00-0000";
+            this.mskAccount.Name = "mskAccount";
+            this.mskAccount.Size = new System.Drawing.Size(148, 21);
+            this.mskAccount.TabIndex = 87;
             // 
             // lbl4
             // 
@@ -269,51 +269,51 @@
             this.label9.TabIndex = 82;
             this.label9.Text = "        Account Code                  ";
             // 
-            // btn1
+            // btnView
             // 
-            this.btn1.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.Location = new System.Drawing.Point(413, 9);
-            this.btn1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(117, 28);
-            this.btn1.TabIndex = 63;
-            this.btn1.Text = "[F1]=View Voucher    ";
-            this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.button3_Click);
+            this.btnView.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnView.Location = new System.Drawing.Point(413, 9);
+            this.btnView.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnView.Name = "btnView";
+            this.btnView.Size = new System.Drawing.Size(117, 28);
+            this.btnView.TabIndex = 63;
+            this.btnView.Text = "[F1]=View Voucher    ";
+            this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.Click += new System.EventHandler(this.button3_Click);
             // 
-            // btn3
+            // btnHelp
             // 
-            this.btn3.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(535, 43);
-            this.btn3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(68, 28);
-            this.btn3.TabIndex = 62;
-            this.btn3.Text = " Bank Help";
-            this.btn3.UseVisualStyleBackColor = true;
+            this.btnHelp.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHelp.Location = new System.Drawing.Point(535, 43);
+            this.btnHelp.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(68, 28);
+            this.btnHelp.TabIndex = 62;
+            this.btnHelp.Text = " Bank Help";
+            this.btnHelp.UseVisualStyleBackColor = true;
             // 
-            // lbl2
+            // lblName
             // 
-            this.lbl2.AutoSize = true;
-            this.lbl2.BackColor = System.Drawing.Color.NavajoWhite;
-            this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl2.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(289, 49);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(241, 18);
-            this.lbl2.TabIndex = 61;
-            this.lbl2.Text = "                                                                             ";
+            this.lblName.AutoSize = true;
+            this.lblName.BackColor = System.Drawing.Color.NavajoWhite;
+            this.lblName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblName.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(289, 49);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(241, 18);
+            this.lblName.TabIndex = 61;
+            this.lblName.Text = "                                                                             ";
             // 
-            // btn2
+            // btnNew
             // 
-            this.btn2.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.Location = new System.Drawing.Point(536, 6);
-            this.btn2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(105, 31);
-            this.btn2.TabIndex = 60;
-            this.btn2.Text = "  New Voucher   ";
-            this.btn2.UseVisualStyleBackColor = true;
+            this.btnNew.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Location = new System.Drawing.Point(536, 6);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(105, 31);
+            this.btnNew.TabIndex = 60;
+            this.btnNew.Text = "  New Voucher   ";
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // dtp1
             // 
@@ -348,17 +348,17 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtVocNo);
-            this.groupBox1.Controls.Add(this.txt1);
+            this.groupBox1.Controls.Add(this.txtDetail);
             this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.btn1);
-            this.groupBox1.Controls.Add(this.btn3);
-            this.groupBox1.Controls.Add(this.lbl2);
-            this.groupBox1.Controls.Add(this.btn2);
+            this.groupBox1.Controls.Add(this.btnView);
+            this.groupBox1.Controls.Add(this.btnHelp);
+            this.groupBox1.Controls.Add(this.lblName);
+            this.groupBox1.Controls.Add(this.btnNew);
             this.groupBox1.Controls.Add(this.dtp1);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.mskBank);
-            this.groupBox1.Controls.Add(this.lbl3);
+            this.groupBox1.Controls.Add(this.lblBalance);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
@@ -370,13 +370,13 @@
             this.groupBox1.TabIndex = 80;
             this.groupBox1.TabStop = false;
             // 
-            // txt1
+            // txtDetail
             // 
-            this.txt1.Location = new System.Drawing.Point(290, 79);
-            this.txt1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(242, 21);
-            this.txt1.TabIndex = 95;
+            this.txtDetail.Location = new System.Drawing.Point(290, 79);
+            this.txtDetail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDetail.Name = "txtDetail";
+            this.txtDetail.Size = new System.Drawing.Size(242, 21);
+            this.txtDetail.TabIndex = 95;
             // 
             // label14
             // 
@@ -399,17 +399,17 @@
             this.mskBank.Size = new System.Drawing.Size(150, 21);
             this.mskBank.TabIndex = 56;
             // 
-            // lbl3
+            // lblBalance
             // 
-            this.lbl3.AutoSize = true;
-            this.lbl3.BackColor = System.Drawing.Color.NavajoWhite;
-            this.lbl3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl3.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Location = new System.Drawing.Point(83, 79);
-            this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(151, 18);
-            this.lbl3.TabIndex = 2;
-            this.lbl3.Text = "                                               ";
+            this.lblBalance.AutoSize = true;
+            this.lblBalance.BackColor = System.Drawing.Color.NavajoWhite;
+            this.lblBalance.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblBalance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBalance.Location = new System.Drawing.Point(83, 79);
+            this.lblBalance.Name = "lblBalance";
+            this.lblBalance.Size = new System.Drawing.Size(151, 18);
+            this.lblBalance.TabIndex = 2;
+            this.lblBalance.Text = "                                               ";
             // 
             // label3
             // 
@@ -458,27 +458,27 @@
             this.grdBank.Size = new System.Drawing.Size(662, 185);
             this.grdBank.TabIndex = 81;
             // 
-            // btn4
+            // btnAdd
             // 
-            this.btn4.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.Location = new System.Drawing.Point(484, 339);
-            this.btn4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(48, 28);
-            this.btn4.TabIndex = 104;
-            this.btn4.Text = " Add";
-            this.btn4.UseVisualStyleBackColor = true;
+            this.btnAdd.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(484, 339);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(48, 28);
+            this.btnAdd.TabIndex = 104;
+            this.btnAdd.Text = " Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
             // 
-            // btn5
+            // btnEdit
             // 
-            this.btn5.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.Location = new System.Drawing.Point(538, 339);
-            this.btn5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(36, 28);
-            this.btn5.TabIndex = 105;
-            this.btn5.Text = "Edit";
-            this.btn5.UseVisualStyleBackColor = true;
+            this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Location = new System.Drawing.Point(538, 339);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(36, 28);
+            this.btnEdit.TabIndex = 105;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // Column1
             // 
@@ -516,21 +516,21 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(673, 445);
-            this.Controls.Add(this.btn5);
-            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btnEdit);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.chk1);
-            this.Controls.Add(this.btn8);
-            this.Controls.Add(this.btn9);
-            this.Controls.Add(this.btn10);
-            this.Controls.Add(this.btn7);
-            this.Controls.Add(this.btn6);
-            this.Controls.Add(this.txt3);
-            this.Controls.Add(this.txt2);
+            this.Controls.Add(this.btnHlp);
+            this.Controls.Add(this.btnPrint);
+            this.Controls.Add(this.btnEsc);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.txtVocDet);
+            this.Controls.Add(this.txtAcc);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.lbl6);
-            this.Controls.Add(this.lbl5);
-            this.Controls.Add(this.msk2);
+            this.Controls.Add(this.lblBal);
+            this.Controls.Add(this.lblAccName);
+            this.Controls.Add(this.mskAccount);
             this.Controls.Add(this.lbl4);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -554,41 +554,41 @@
         #endregion
 
         private System.Windows.Forms.CheckBox chk1;
-        private System.Windows.Forms.Button btn8;
-        private System.Windows.Forms.Button btn9;
-        private System.Windows.Forms.Button btn10;
-        private System.Windows.Forms.Button btn7;
-        private System.Windows.Forms.Button btn6;
-        private System.Windows.Forms.TextBox txt3;
-        private System.Windows.Forms.TextBox txt2;
+        private System.Windows.Forms.Button btnHlp;
+        private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.Button btnEsc;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.TextBox txtVocDet;
+        private System.Windows.Forms.TextBox txtAcc;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label lbl6;
-        private System.Windows.Forms.Label lbl5;
-        private System.Windows.Forms.MaskedTextBox msk2;
+        private System.Windows.Forms.Label lblBal;
+        private System.Windows.Forms.Label lblAccName;
+        private System.Windows.Forms.MaskedTextBox mskAccount;
         private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.Button btn3;
-        private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btnView;
+        private System.Windows.Forms.Button btnHelp;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.DateTimePicker dtp1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.MaskedTextBox mskBank;
-        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.Label lblBalance;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView grdBank;
-        private System.Windows.Forms.TextBox txt1;
+        private System.Windows.Forms.TextBox txtDetail;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button btn4;
-        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
