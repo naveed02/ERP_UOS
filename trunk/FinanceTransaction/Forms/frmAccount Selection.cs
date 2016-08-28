@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ERP_UOS
 {
-    public partial class Account_Selection : Form
+    public partial class frmAccountSelection : Form
     {
-        public Account_Selection()
+        public frmAccountSelection()
         {
             InitializeComponent();
         }
