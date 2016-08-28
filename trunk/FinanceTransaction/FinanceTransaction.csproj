@@ -171,6 +171,12 @@
     <Compile Include="Forms\frmDaily Chq.Designer.cs">
       <DependentUpon>frmDaily Chq.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmDeliveryOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDeliveryOrder.designer.cs">
+      <DependentUpon>frmDeliveryOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmDiscount Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,12 +218,6 @@
     </Compile>
     <Compile Include="Forms\frmCustomerWiseAgingDueReceiveables.Designer.cs">
       <DependentUpon>frmCustomerWiseAgingDueReceiveables.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\frmDeliveryOrder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\frmDeliveryOrder.Designer.cs">
-      <DependentUpon>frmDeliveryOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmDemandNote.cs">
       <SubType>Form</SubType>
@@ -567,6 +567,9 @@
     <EmbeddedResource Include="Forms\frmDaily Chq.resx">
       <DependentUpon>frmDaily Chq.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDeliveryOrder.resx">
+      <DependentUpon>frmDeliveryOrder.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmDiscount Voucher.resx">
       <DependentUpon>frmDiscount Voucher.cs</DependentUpon>
     </EmbeddedResource>
@@ -587,9 +590,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCustomerWiseAgingDueReceiveables.resx">
       <DependentUpon>frmCustomerWiseAgingDueReceiveables.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmDeliveryOrder.resx">
-      <DependentUpon>frmDeliveryOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmDemandNote.resx">
       <DependentUpon>frmDemandNote.cs</DependentUpon>
