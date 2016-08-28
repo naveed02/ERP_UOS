@@ -11,6 +11,7 @@ namespace ERP_UOS
 {
     public partial class frmFinishItemReceive : Form
     {
+        int fcboDefaultValue = 0;
         public frmFinishItemReceive()
         {
             InitializeComponent();
@@ -24,6 +25,32 @@ namespace ERP_UOS
         private void frmFinishItemReceive_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+            AtfrmLoad();
         }
+
+        private void AtfrmLoad()
+        {
+            string ISQL = string.Empty;
+
+            ISQL = " SELECT cgdCode, cgdDesc"
+                 + " FROM CatDtl"
+                 + " WHERE cgCode = 6"
+                 + " ORDER BY cgdDesc";
+
+
+            clsFillCombo.FillCombo(cboItemGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboItemGroup.SelectedValue);
+            
+            
+            ISQL = " SELECT employeeid, first_name + last_name"
+                + " FROM PR_Employee"
+                + " ORDER BY employeeid";
+
+            clsFillCombo.FillCombo(cboEmpCode, clsGVar.ConString1, "employeeid" + "," + "first_name + last_name" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboEmpCode.SelectedValue);
+
+        }
+
+
     }
 }

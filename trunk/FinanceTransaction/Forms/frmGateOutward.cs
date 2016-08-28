@@ -11,6 +11,7 @@ namespace ERP_UOS
 {
     public partial class frmGateOutward : Form
     {
+        int fcboDefaultValue = 0;
         public frmGateOutward()
         {
             InitializeComponent();
@@ -24,6 +25,24 @@ namespace ERP_UOS
         private void frmGateOutward_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+            AtfrmLoad();
         }
+
+        private void AtfrmLoad()
+        {
+            string ISQL = string.Empty;
+
+            ISQL = " SELECT cgdCode, cgdDesc"
+                 + " FROM CatDtl"
+                 + " WHERE cgCode = 6"
+                 + " ORDER BY cgdDesc";
+
+
+            clsFillCombo.FillCombo(cboItemGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboItemGroup.SelectedValue);
+
+        }
+
+
     }
 }

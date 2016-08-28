@@ -11,6 +11,7 @@ namespace ERP_UOS
 {
     public partial class frmPurchaseOrder : Form
     {
+        int fcboDefaultValue = 0;
         public frmPurchaseOrder()
         {
             InitializeComponent();
@@ -19,7 +20,32 @@ namespace ERP_UOS
         private void frmPurchaseOrder_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
+            AtfrmLoad();
         }
+
+        private void AtfrmLoad()
+        {
+            string ISQL = string.Empty;
+
+            ISQL = " SELECT cgdCode, cgdDesc"
+                 + " FROM CatDtl"
+                 + " WHERE cgCode = 6"
+                 + " ORDER BY cgdDesc";
+
+
+            clsFillCombo.FillCombo(cboItemGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboItemGroup.SelectedValue);
+
+            ISQL = " SELECT employeeid, first_name + last_name"
+                 + " FROM PR_Employee"
+                 + " ORDER BY employeeid";
+
+            clsFillCombo.FillCombo(cboEmpCode, clsGVar.ConString1, "employeeid" + "," + "first_name + last_name" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboEmpCode.SelectedValue);
+
+        }
+
+
 
         private void label2_Click(object sender, EventArgs e)
         {
