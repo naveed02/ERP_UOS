@@ -317,11 +317,6 @@ namespace ERP_UOS
             frm.Show();
         }
 
-        private void deliveryOrderToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void invoiceEntryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmInvoiceEntry frm = new frmInvoiceEntry();
@@ -350,6 +345,14 @@ namespace ERP_UOS
             frm.Show();
         }
 
+        private void deliveryOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDeliveryOrder frm = new frmDeliveryOrder();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+     
       
         
        
