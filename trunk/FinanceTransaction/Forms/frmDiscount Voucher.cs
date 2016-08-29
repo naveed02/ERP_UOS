@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ERP_UOS
 {
-    public partial class Discount_Voucher : Form
+    public partial class frmDiscountVoucher : Form
     {
-        public Discount_Voucher()
+        public frmDiscountVoucher()
         {
             InitializeComponent();
         }
@@ -23,7 +23,7 @@ namespace ERP_UOS
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Account_Selection frm = new Account_Selection();
+           frmAccountSelection frm = new frmAccountSelection();
 
             frm.ShowDialog();
 
