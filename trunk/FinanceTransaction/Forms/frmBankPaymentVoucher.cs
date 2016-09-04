@@ -81,7 +81,7 @@ namespace ERP_UOS
 //from gl_ac
 
             frmLookUp sForm = new frmLookUp(
-            " ac_id",
+            " ac_strid",
             " ac_title",
             " gl_ac",
              this.Text.ToString(),
