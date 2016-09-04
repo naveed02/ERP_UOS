@@ -20,10 +20,10 @@ namespace ERP_UOS
         private void frmPurchaseOrder_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
-            AtfrmLoad();
+            AtFormLoad();
         }
 
-        private void AtfrmLoad()
+        private void AtFormLoad()
         {
             string ISQL = string.Empty;
 
@@ -36,7 +36,7 @@ namespace ERP_UOS
             clsFillCombo.FillCombo(cboItemGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
             fcboDefaultValue = Convert.ToInt16(cboItemGroup.SelectedValue);
 
-            ISQL = " SELECT employeeid, first_name + last_name"
+            ISQL = " SELECT employeeid, first_name + ' ' + last_name"
                  + " FROM PR_Employee"
                  + " ORDER BY employeeid";
 
