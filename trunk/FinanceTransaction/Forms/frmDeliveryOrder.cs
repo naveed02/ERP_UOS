@@ -47,6 +47,14 @@ namespace ERP_UOS
             clsFillCombo.FillCombo(cboMainGroup, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
             fcboDefaultValue = Convert.ToInt16(cboMainGroup.SelectedValue);
 
+            ISQL = " select cgdCode,CgdDesc"
+                  + " from CatDtl"
+                  + " where cgCode=14"
+                  + " order by cgdDesc";
+
+            clsFillCombo.FillCombo(cboAdda, clsGVar.ConString1, "CatDtl" + "," + "cgdCode" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboAdda.SelectedValue);
+
         }
     }
 }
