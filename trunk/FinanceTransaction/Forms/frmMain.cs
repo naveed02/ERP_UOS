@@ -56,7 +56,7 @@ namespace ERP_UOS
         }
         private void discountVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Discount_Voucher frm = new Discount_Voucher();
+            frmDiscountVoucher frm = new frmDiscountVoucher();
             frm.MdiParent = this;
             frm.Show();
                  

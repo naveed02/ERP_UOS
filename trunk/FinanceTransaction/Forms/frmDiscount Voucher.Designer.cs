@@ -1,6 +1,6 @@
 ﻿namespace ERP_UOS
 {
-    partial class Discount_Voucher
+    partial class frmDiscountVoucher
     {
         /// <summary>
         /// Required designer variable.
@@ -179,7 +179,7 @@
             this.button1.Text = "Exit With Save";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Discount_Voucher
+            // frmDiscountVoucher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -200,8 +200,8 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Discount_Voucher";
-            this.Text = "Discount_Voucher";
+            this.Name = "frmDiscountVoucher";
+            this.Text = "Discount Voucher";
             this.Load += new System.EventHandler(this.Discount_Voucher_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
