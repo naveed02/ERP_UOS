@@ -54,6 +54,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtVocNo = new System.Windows.Forms.TextBox();
             this.txtDetail = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.mskBank = new System.Windows.Forms.MaskedTextBox();
@@ -62,13 +63,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.grdBank = new System.Windows.Forms.DataGridView();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtVocNo = new System.Windows.Forms.TextBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdBank)).BeginInit();
             this.SuspendLayout();
@@ -279,7 +279,7 @@
             this.btnView.TabIndex = 63;
             this.btnView.Text = "[F1]=View Voucher    ";
             this.btnView.UseVisualStyleBackColor = true;
-            this.btnView.Click += new System.EventHandler(this.button3_Click);
+            this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
             // btnHelp
             // 
@@ -370,6 +370,15 @@
             this.groupBox1.TabIndex = 80;
             this.groupBox1.TabStop = false;
             // 
+            // txtVocNo
+            // 
+            this.txtVocNo.Location = new System.Drawing.Point(82, 12);
+            this.txtVocNo.Name = "txtVocNo";
+            this.txtVocNo.Size = new System.Drawing.Size(151, 21);
+            this.txtVocNo.TabIndex = 106;
+            this.txtVocNo.DoubleClick += new System.EventHandler(this.txtVocNo_DoubleClick);
+            this.txtVocNo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVocNo_KeyDown);
+            // 
             // txtDetail
             // 
             this.txtDetail.Location = new System.Drawing.Point(290, 79);
@@ -398,6 +407,7 @@
             this.mskBank.Name = "mskBank";
             this.mskBank.Size = new System.Drawing.Size(150, 21);
             this.mskBank.TabIndex = 56;
+            this.mskBank.DoubleClick += new System.EventHandler(this.mskBank_DoubleClick);
             // 
             // lblBalance
             // 
@@ -458,28 +468,6 @@
             this.grdBank.Size = new System.Drawing.Size(662, 185);
             this.grdBank.TabIndex = 81;
             // 
-            // btnAdd
-            // 
-            this.btnAdd.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(484, 339);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(48, 28);
-            this.btnAdd.TabIndex = 104;
-            this.btnAdd.Text = " Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdit.Location = new System.Drawing.Point(538, 339);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(36, 28);
-            this.btnEdit.TabIndex = 105;
-            this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "Account Code";
@@ -504,12 +492,27 @@
             this.Column4.Name = "Column4";
             this.Column4.Width = 110;
             // 
-            // txtVocNo
+            // btnAdd
             // 
-            this.txtVocNo.Location = new System.Drawing.Point(82, 12);
-            this.txtVocNo.Name = "txtVocNo";
-            this.txtVocNo.Size = new System.Drawing.Size(151, 21);
-            this.txtVocNo.TabIndex = 106;
+            this.btnAdd.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(484, 339);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(48, 28);
+            this.btnAdd.TabIndex = 104;
+            this.btnAdd.Text = " Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Location = new System.Drawing.Point(538, 339);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(36, 28);
+            this.btnEdit.TabIndex = 105;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // frmBankPaymentVoucher
             // 
@@ -542,7 +545,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmBankPaymentVoucher";
             this.Text = "Bank Payment Voucher";
-            this.Load += new System.EventHandler(this.Bank_Payment_Voucher_Load);
+            this.Load += new System.EventHandler(this.frmBankPaymentVoucher_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdBank)).EndInit();

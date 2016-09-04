@@ -58,6 +58,14 @@ namespace ERP_UOS
     private string p_9;
     private bool p_10;
     private bool p_11;
+    private int p_12;
+    private string p_13;
+    private string p_14;
+    private string p_15;
+    private bool p_16;
+    private string p_17;
+    private string p_18;
+    private string p_19;
     //
       // 1- KeyField
       // 2- Field List
@@ -159,6 +167,24 @@ namespace ERP_UOS
         this.p_9 = p_9;
         this.p_10 = p_10;
         this.p_11 = p_11;
+    }
+
+    public frmLookUp(string p, string p_2, string p_4, string p_5, string p_6, int p_12, string p_13, string p_14, string p_15, bool p_16, string p_17, string p_18, string p_19)
+    {
+        // TODO: Complete member initialization
+        this.p = p;
+        this.p_2 = p_2;
+        this.p_4 = p_4;
+        this.p_5 = p_5;
+        this.p_6 = p_6;
+        this.p_12 = p_12;
+        this.p_13 = p_13;
+        this.p_14 = p_14;
+        this.p_15 = p_15;
+        this.p_16 = p_16;
+        this.p_17 = p_17;
+        this.p_18 = p_18;
+        this.p_19 = p_19;
     }
 
     private void btn_Exit_Click(object sender, EventArgs e)
