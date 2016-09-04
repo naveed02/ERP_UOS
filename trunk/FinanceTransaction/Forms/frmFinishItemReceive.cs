@@ -43,11 +43,20 @@ namespace ERP_UOS
             
             
             ISQL = " SELECT employeeid, first_name + last_name"
-                + " FROM PR_Employee"
-                + " ORDER BY employeeid";
+                 + " FROM PR_Employee"
+                 + " ORDER BY employeeid";
 
             clsFillCombo.FillCombo(cboEmpCode, clsGVar.ConString1, "employeeid" + "," + "first_name + last_name" + "," + "False", ISQL, true);
             fcboDefaultValue = Convert.ToInt16(cboEmpCode.SelectedValue);
+
+
+            ISQL = " select distinct 1, RIGHT(ItemCode,1)"
+                 +  " from Item";
+
+            clsFillCombo.FillCombo(cboCategory, clsGVar.ConString1, "employeeid" + "," + "first_name + last_name" + "," + "False", ISQL, true);
+            fcboDefaultValue = Convert.ToInt16(cboCategory.SelectedValue);
+
+
 
         }
 
