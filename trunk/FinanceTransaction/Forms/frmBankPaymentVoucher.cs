@@ -141,5 +141,10 @@ namespace ERP_UOS
         {
             LookUp_GL();
         }
+
+        private void mskAccount_DoubleClick(object sender, EventArgs e)
+        {
+            LookUp_GL();
+        }
     }
 }

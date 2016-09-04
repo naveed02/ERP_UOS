@@ -212,6 +212,7 @@
             this.mskAccount.Name = "mskAccount";
             this.mskAccount.Size = new System.Drawing.Size(148, 21);
             this.mskAccount.TabIndex = 87;
+            this.mskAccount.DoubleClick += new System.EventHandler(this.mskAccount_DoubleClick);
             // 
             // lbl4
             // 
