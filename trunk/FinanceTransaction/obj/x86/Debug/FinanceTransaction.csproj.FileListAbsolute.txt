@@ -1,4 +1,9 @@
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\bin\Debug\FinanceTransaction.exe.config
+<<<<<<< HEAD
+=======
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\bin\Debug\FinanceTransaction.exe
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\bin\Debug\FinanceTransaction.pdb
+>>>>>>> origin/master
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.csprojResolveAssemblyReference.cache
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmAccount_Description.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmAccountSelection.resources
@@ -62,7 +67,10 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.PrintViewer.f
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.PrintViewer.frmPrintViewerSubVoc4P.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Properties.Resources.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\bin\Debug\FinanceTransaction.exe
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\bin\Debug\FinanceTransaction.pdb
+=======
+>>>>>>> origin/master
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.exe
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.pdb

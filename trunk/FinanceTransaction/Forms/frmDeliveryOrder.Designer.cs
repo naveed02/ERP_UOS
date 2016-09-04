@@ -78,7 +78,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.r = new System.Windows.Forms.ComboBox();
+            this.cboAdda = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -552,13 +552,13 @@
             this.textBox4.Size = new System.Drawing.Size(476, 21);
             this.textBox4.TabIndex = 95;
             // 
-            // r
+            // cboAdda
             // 
-            this.r.FormattingEnabled = true;
-            this.r.Location = new System.Drawing.Point(414, 151);
-            this.r.Name = "r";
-            this.r.Size = new System.Drawing.Size(475, 23);
-            this.r.TabIndex = 94;
+            this.cboAdda.FormattingEnabled = true;
+            this.cboAdda.Location = new System.Drawing.Point(414, 151);
+            this.cboAdda.Name = "cboAdda";
+            this.cboAdda.Size = new System.Drawing.Size(475, 23);
+            this.cboAdda.TabIndex = 94;
             // 
             // label20
             // 
@@ -891,7 +891,7 @@
             this.Controls.Add(this.label21);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.r);
+            this.Controls.Add(this.cboAdda);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label19);
@@ -984,7 +984,7 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox r;
+        private System.Windows.Forms.ComboBox cboAdda;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label19;
