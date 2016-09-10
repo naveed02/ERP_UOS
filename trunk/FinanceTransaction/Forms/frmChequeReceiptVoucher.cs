@@ -25,8 +25,9 @@ namespace ERP_UOS
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Cheque_Receipt_Vouchers frm = new Cheque_Receipt_Vouchers();
-            frm.ShowDialog();
+            //Cheque_Receipt_Vouchers frm = new Cheque_Receipt_Vouchers();
+            //frm.ShowDialog();
+            LookUp_Voc();
         }
 
         private void label10_Click(object sender, EventArgs e)
@@ -83,11 +84,55 @@ namespace ERP_UOS
                 }
             }
         }
+
+        private void LookUp_GL()
+        {
+            //select CustCode,CustName 
+            //from GL_CustDesc
+
+            frmLookUp sForm = new frmLookUp(
+            " CustCode",
+            " CustName",
+            " GL_CustDesc",
+             this.Text.ToString(),
+             1,
+            "Cust Code,Cust Name",
+            "10,10",
+            "T,T",
+            true,
+            "",
+            "",
+            "TextBox"
+            );
+
+            mskCustomer.Text = string.Empty;
+            sForm.lupassControl = new frmLookUp.LUPassControl(PassDataVocID_GL);
+            sForm.ShowDialog();
+            if (mskCustomer.Text != null)
+            {
+                if (mskCustomer.Text != null)
+                {
+                    if (mskCustomer.Text.ToString() == "" || mskCustomer.Text.ToString() == string.Empty)
+                    {
+                        return;
+                    }
+                    if (mskCustomer.Text.ToString().Trim().Length > 0)
+                    {
+                        //PopulateRecords();
+                        //SumVoc();
+                    }
+                }
+            }
+        }
+
         private void PassDataVocID(object sender)
         {
             txtVocNo.Text = ((TextBox)sender).Text;
         }
-
+        private void PassDataVocID_GL(object sender)
+        {
+            mskCustomer.Text = ((TextBox)sender).Text;
+        }
         private void txtVocNo_DoubleClick(object sender, EventArgs e)
         {
             LookUp_Voc();
@@ -99,6 +144,11 @@ namespace ERP_UOS
             {
                 LookUp_Voc();
             }
+        }
+
+        private void mskCustomer_DoubleClick(object sender, EventArgs e)
+        {
+            LookUp_GL();
         }
 
        
