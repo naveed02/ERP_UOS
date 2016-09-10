@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtVocNo = new System.Windows.Forms.TextBox();
             this.btnBanks = new System.Windows.Forms.Button();
             this.btnUnspoted = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
@@ -68,7 +69,6 @@
             this.btnPrint = new System.Windows.Forms.Button();
             this.btnHelp = new System.Windows.Forms.Button();
             this.chk1 = new System.Windows.Forms.CheckBox();
-            this.txtVocNo = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdBankReceiptVoucher)).BeginInit();
             this.SuspendLayout();
@@ -93,6 +93,15 @@
             this.groupBox1.Size = new System.Drawing.Size(592, 131);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // txtVocNo
+            // 
+            this.txtVocNo.Location = new System.Drawing.Point(83, 17);
+            this.txtVocNo.Name = "txtVocNo";
+            this.txtVocNo.Size = new System.Drawing.Size(157, 21);
+            this.txtVocNo.TabIndex = 64;
+            this.txtVocNo.DoubleClick += new System.EventHandler(this.txtVocNo_DoubleClick);
+            this.txtVocNo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVocNo_KeyDown);
             // 
             // btnBanks
             // 
@@ -174,6 +183,7 @@
             this.mskBank.Name = "mskBank";
             this.mskBank.Size = new System.Drawing.Size(157, 21);
             this.mskBank.TabIndex = 56;
+            this.mskBank.DoubleClick += new System.EventHandler(this.mskBank_DoubleClick);
             // 
             // lblBalance
             // 
@@ -323,6 +333,7 @@
             this.mskAccount.Name = "mskAccount";
             this.mskAccount.Size = new System.Drawing.Size(131, 21);
             this.mskAccount.TabIndex = 57;
+            this.mskAccount.DoubleClick += new System.EventHandler(this.mskAccount_DoubleClick);
             // 
             // lblAccountName
             // 
@@ -472,13 +483,6 @@
             this.chk1.TabIndex = 79;
             this.chk1.Text = "Printer";
             this.chk1.UseVisualStyleBackColor = true;
-            // 
-            // txtVocNo
-            // 
-            this.txtVocNo.Location = new System.Drawing.Point(83, 17);
-            this.txtVocNo.Name = "txtVocNo";
-            this.txtVocNo.Size = new System.Drawing.Size(157, 21);
-            this.txtVocNo.TabIndex = 64;
             // 
             // frmBankReceiptVoucher
             // 

@@ -37,9 +37,9 @@ namespace ERP_UOS
 
         private void LookUp_Voc()
         {
-//            select doc_id, doc_strid, Convert(VARCHAR(10), doc_date, 103) AS doc_date, doc_amt
-//from gl_tran
-//where doc_vt_id = 269
+              //select doc_id, doc_strid, Convert(VARCHAR(10), doc_date, 103) AS doc_date, doc_amt
+              //from gl_tran
+              //where doc_vt_id = 269
 
             frmLookUp sForm = new frmLookUp(
             "doc_id",
@@ -56,9 +56,25 @@ namespace ERP_UOS
             "",
             "TextBox"
             );
-            //
+
+            txtVocNo.Text = string.Empty;
             sForm.lupassControl = new frmLookUp.LUPassControl(PassData);
             sForm.ShowDialog();
+            if (txtVocNo.Text != null)
+            {
+                if (txtVocNo.Text != null)
+                {
+                    if (txtVocNo.Text.ToString() == "" || txtVocNo.Text.ToString() == string.Empty)
+                    {
+                        return;
+                    }
+                    if (txtVocNo.Text.ToString().Trim().Length > 0)
+                    {
+                        //PopulateRecords();
+                        //SumVoc();
+                    }
+                }
+            }
         }
 
         private void PassData(object sender)

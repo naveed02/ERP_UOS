@@ -33,7 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mskCustomer = new System.Windows.Forms.MaskedTextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -95,14 +95,15 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "  Discount Amount   ";
             // 
-            // maskedTextBox1
+            // mskCustomer
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(117, 11);
-            this.maskedTextBox1.Mask = "0-0-00-00-0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(150, 21);
-            this.maskedTextBox1.TabIndex = 57;
+            this.mskCustomer.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mskCustomer.Location = new System.Drawing.Point(117, 11);
+            this.mskCustomer.Mask = "0-0-00-00-0000";
+            this.mskCustomer.Name = "mskCustomer";
+            this.mskCustomer.Size = new System.Drawing.Size(150, 21);
+            this.mskCustomer.TabIndex = 57;
+            this.mskCustomer.DoubleClick += new System.EventHandler(this.mskCustomer_DoubleClick);
             // 
             // label8
             // 
@@ -192,7 +193,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.mskCustomer);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -215,7 +216,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mskCustomer;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox2;

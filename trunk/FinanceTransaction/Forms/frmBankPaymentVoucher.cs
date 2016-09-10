@@ -77,8 +77,8 @@ namespace ERP_UOS
         
         private void LookUp_GL()
         {
-//            select ac_id, ac_title
-//from gl_ac
+          // select ac_id, ac_title
+            //from gl_ac
 
             frmLookUp sForm = new frmLookUp(
             " ac_strid",
