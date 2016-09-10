@@ -63,14 +63,14 @@ namespace ERP_UOS
         }
         private void checkReceiveVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cheque_Receipt_Voucher frm = new Cheque_Receipt_Voucher();
+            frmChequeReceiptVoucher frm = new frmChequeReceiptVoucher();
             frm.MdiParent = this;
             frm.Show();
 
         }
         private void checkPaymentVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cheque_Payment_Voucher frm = new Cheque_Payment_Voucher();
+            frmChequePaymentVoucher frm = new frmChequePaymentVoucher();
             frm.MdiParent = this;
             frm.Show();
         }
