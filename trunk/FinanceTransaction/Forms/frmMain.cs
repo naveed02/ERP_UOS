@@ -77,7 +77,7 @@ namespace ERP_UOS
 
         private void returnBackReceiveVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Return_Back_Receive_Voucher frm = new Return_Back_Receive_Voucher();
+            frmReturnBankReceiptVoucher frm = new frmReturnBankReceiptVoucher();
             frm.MdiParent = this;
             frm.Show();
         }

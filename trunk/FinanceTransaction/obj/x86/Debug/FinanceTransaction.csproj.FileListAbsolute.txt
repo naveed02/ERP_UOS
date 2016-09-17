@@ -45,7 +45,6 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmJournalVou
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmPacking.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Post_Dated_Cheques.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Posted_Invoice_Help.resources
-D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Return_Back_Receive_Voucher.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Salary_Making.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Salary_Posting.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.Salary_Report.resources
@@ -66,3 +65,4 @@ D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.ex
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\FinanceTransaction.pdb
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmChequePaymentVoucher.resources
 D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmChequeReceiptVoucher.resources
+D:\Projects\ERP_UOS\trunk\FinanceTransaction\obj\x86\Debug\ERP_UOS.frmReturnBankReceiptVoucher.resources

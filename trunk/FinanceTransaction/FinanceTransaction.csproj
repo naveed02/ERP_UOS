@@ -351,11 +351,11 @@
     <Compile Include="Forms\frmPostedInvoice Help.Designer.cs">
       <DependentUpon>frmPostedInvoice Help.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmReturnBackReceiveVoucher.cs">
+    <Compile Include="Forms\frmReturnBankReceiveVoucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmReturnBackReceiveVoucher.Designer.cs">
-      <DependentUpon>frmReturnBackReceiveVoucher.cs</DependentUpon>
+    <Compile Include="Forms\frmReturnBankReceiveVoucher.Designer.cs">
+      <DependentUpon>frmReturnBankReceiveVoucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmSalaryMaking.cs">
       <SubType>Form</SubType>
@@ -657,8 +657,8 @@
     <EmbeddedResource Include="Forms\frmPostedInvoice Help.resx">
       <DependentUpon>frmPostedInvoice Help.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmReturnBackReceiveVoucher.resx">
-      <DependentUpon>frmReturnBackReceiveVoucher.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmReturnBankReceiveVoucher.resx">
+      <DependentUpon>frmReturnBankReceiveVoucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmSalaryMaking.resx">
       <DependentUpon>frmSalaryMaking.cs</DependentUpon>
