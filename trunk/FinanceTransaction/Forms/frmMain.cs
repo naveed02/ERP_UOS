@@ -96,7 +96,7 @@ namespace ERP_UOS
         }
         private void chequeToChequeCashToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCheque_to_Cheque frm = new frmCheque_to_Cheque();
+            frmChequeToCheque frm = new frmChequeToCheque();
             frm.MdiParent = this;
             frm.Show();
         }
