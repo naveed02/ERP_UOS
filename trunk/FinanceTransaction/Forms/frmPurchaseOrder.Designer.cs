@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -87,8 +87,8 @@
             this.lblValue = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.txtSuggestionOfCash = new System.Windows.Forms.TextBox();
-            this.lblPurchaseOrderNumber = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtPurchaseOrderNumber = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdPurchaseOrder)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -358,6 +358,7 @@
             this.btnF1Help1.TabIndex = 32;
             this.btnF1Help1.Text = "F1=Help";
             this.btnF1Help1.UseVisualStyleBackColor = true;
+            this.btnF1Help1.Click += new System.EventHandler(this.btnF1Help1_Click);
             // 
             // btnF1Help2
             // 
@@ -419,10 +420,10 @@
             // 
             // Column1
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Red;
-            dataGridViewCellStyle1.NullValue = false;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle4.NullValue = false;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column1.HeaderText = "?";
             this.Column1.Name = "Column1";
             this.Column1.Width = 30;
@@ -627,16 +628,6 @@
             this.txtSuggestionOfCash.Size = new System.Drawing.Size(206, 21);
             this.txtSuggestionOfCash.TabIndex = 50;
             // 
-            // lblPurchaseOrderNumber
-            // 
-            this.lblPurchaseOrderNumber.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblPurchaseOrderNumber.Location = new System.Drawing.Point(152, 9);
-            this.lblPurchaseOrderNumber.Name = "lblPurchaseOrderNumber";
-            this.lblPurchaseOrderNumber.Size = new System.Drawing.Size(149, 21);
-            this.lblPurchaseOrderNumber.TabIndex = 51;
-            this.lblPurchaseOrderNumber.Text = "01-16-1";
-            this.lblPurchaseOrderNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.optForPurchasePoint);
@@ -647,14 +638,23 @@
             this.groupBox2.TabIndex = 52;
             this.groupBox2.TabStop = false;
             // 
+            // txtPurchaseOrderNumber
+            // 
+            this.txtPurchaseOrderNumber.Location = new System.Drawing.Point(150, 9);
+            this.txtPurchaseOrderNumber.Name = "txtPurchaseOrderNumber";
+            this.txtPurchaseOrderNumber.Size = new System.Drawing.Size(150, 21);
+            this.txtPurchaseOrderNumber.TabIndex = 53;
+            this.txtPurchaseOrderNumber.DoubleClick += new System.EventHandler(this.txtPurchaseOrderNumber_DoubleClick);
+            this.txtPurchaseOrderNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPurchaseOrderNumber_KeyDown);
+            // 
             // frmPurchaseOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(932, 510);
+            this.Controls.Add(this.txtPurchaseOrderNumber);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.lblPurchaseOrderNumber);
             this.Controls.Add(this.txtSuggestionOfCash);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.lblValue);
@@ -759,7 +759,6 @@
         private System.Windows.Forms.Label lblValue;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtSuggestionOfCash;
-        private System.Windows.Forms.Label lblPurchaseOrderNumber;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -774,5 +773,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txtPurchaseOrderNumber;
     }
 }
