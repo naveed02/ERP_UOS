@@ -83,7 +83,7 @@ namespace ERP_UOS
         }
         private void checkToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cheque_Return frm = new Cheque_Return();
+            frmChequeReturn frm = new frmChequeReturn();
             frm.MdiParent = this;
             frm.Show();
 
